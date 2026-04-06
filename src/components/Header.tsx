@@ -1,86 +1,123 @@
-import { Link, useLocation } from "react-router-dom";
-import logo from "@/assets/aronsgard-bygg-service-logo.jpg";
-import { useState } from "react";
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
-  { to: "/", label: "Hem" },
-  { to: "/projekt", label: "Projekt" },
-  { to: "/om-oss", label: "Om oss" },
-  { to: "/kontakt", label: "Kontakt" },
+  { href: "/", label: "Hem" },
+  { href: "/projekt", label: "Projekt" },
+  { href: "/om-oss", label: "Om oss" },
+  { href: "/kontakt", label: "Kontakt" },
 ];
 
-const Header = () => {
-  const location = useLocation();
-  const [mobileOpen, setMobileOpen] = useState(false);
+export default function Header() {
+  const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const isHome = pathname === "/";
+  const transparent = isHome && !scrolled;
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
-        <Link to="/" aria-label="Aronsgård Bygg & Service – startsida" className="flex items-center gap-3">
-          <img src={logo} alt="Aronsgård Bygg & Service logotyp" width={44} height={44} className="rounded-full" />
-          <span className="hidden sm:block font-sans text-sm font-semibold text-foreground tracking-wide uppercase">
-            Aronsgård Bygg & Service
-          </span>
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        transparent
+          ? "bg-transparent"
+          : "bg-white/95 backdrop-blur-sm shadow-sm"
+      }`}
+    >
+      <div className="container mx-auto px-4 md:px-8 h-12 flex items-center justify-between">
+        {/* Logotyp */}
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/Test logga.png"
+            alt="Aronsgård Bygg & Service"
+            width={120}
+            height={60}
+            className={`h-10 w-auto object-contain transition-all ${
+              transparent ? "brightness-0 invert" : ""
+            }`}
+            priority
+          />
         </Link>
 
-        <nav aria-label="Huvudnavigation" className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
+        {/* Desktop nav */}
+        <nav className="hidden md:flex items-center gap-8">
+          {navLinks.map((l) => (
             <Link
-              key={link.to}
-              to={link.to}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                location.pathname === link.to || (link.to !== "/" && location.pathname.startsWith(link.to))
-                  ? "text-primary"
-                  : "text-foreground/70"
+              key={l.href}
+              href={l.href}
+              className={`text-sm font-medium transition-colors ${
+                pathname === l.href
+                  ? transparent
+                    ? "text-white"
+                    : "text-primary"
+                  : transparent
+                  ? "text-white/80 hover:text-white"
+                  : "text-foreground/70 hover:text-foreground"
               }`}
             >
-              {link.label}
+              {l.label}
             </Link>
           ))}
           <a
             href="tel:+46738000979"
-            className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors"
+            className={`inline-flex items-center gap-1.5 text-sm font-semibold transition-colors ${
+              transparent
+                ? "text-white/80 hover:text-white"
+                : "text-primary hover:text-primary/80"
+            }`}
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-3.5 h-3.5" />
             073-800 09 79
           </a>
         </nav>
 
+        {/* Mobilmeny-knapp */}
         <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-foreground p-2"
-          aria-label={mobileOpen ? "Stäng meny" : "Öppna meny"}
+          className={`md:hidden p-2 transition-colors ${
+            transparent ? "text-white" : "text-foreground"
+          }`}
+          onClick={() => setMenuOpen((v) => !v)}
+          aria-label="Meny"
         >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
       </div>
 
-      {mobileOpen && (
-        <nav className="md:hidden bg-background border-t border-border px-4 py-4" aria-label="Mobilnavigation">
-          {navLinks.map((link) => (
+      {/* Mobilmeny */}
+      {menuOpen && (
+        <div className="md:hidden bg-white border-t border-border px-4 py-4 flex flex-col gap-4">
+          {navLinks.map((l) => (
             <Link
-              key={link.to}
-              to={link.to}
-              onClick={() => setMobileOpen(false)}
-              className={`block py-3 text-base font-medium border-b border-border/50 ${
-                location.pathname === link.to ? "text-primary" : "text-foreground/70"
+              key={l.href}
+              href={l.href}
+              onClick={() => setMenuOpen(false)}
+              className={`text-sm font-medium ${
+                pathname === l.href ? "text-primary" : "text-foreground/70"
               }`}
             >
-              {link.label}
+              {l.label}
             </Link>
           ))}
           <a
             href="tel:+46738000979"
-            className="flex items-center gap-2 mt-4 bg-primary text-primary-foreground px-4 py-3 rounded-full text-base font-semibold justify-center"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary"
           >
-            <Phone className="w-5 h-5" />
+            <Phone className="w-3.5 h-3.5" />
             073-800 09 79
           </a>
-        </nav>
+        </div>
       )}
     </header>
   );
-};
-
-export default Header;
+}
