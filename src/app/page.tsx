@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Hammer, TreePine, Shield, Users } from "lucide-react";
-import imgHero from "@/assets/hero-byggprojekt-jamtland.jpg";
 import { pastProjects } from "@/lib/projects";
 import TjansterSection from "@/components/TjansterSection";
 
@@ -74,7 +73,7 @@ export default function HomePage() {
       {/* Hero – helskärm */}
       <section className="relative flex items-center" style={{ height: "calc(100vh - 48px)" }}>
         <Image
-          src="/images/Nybyggnation_Vemdalen2.png"
+          src="/images/Vemdalen nybyggnation korrekt.jpg"
           alt="Byggprojekt i Jämtland – Aronsgård Bygg & Service"
           fill
           className="object-cover object-center"

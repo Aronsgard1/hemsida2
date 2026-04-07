@@ -19,7 +19,7 @@ interface Service {
 const services: Service[] = [
   {
     title: "Nybyggnation",
-    img: "/images/Nybyggnation Vemdalen.png",
+    img: "/images/Vemdalen nybyggnation korrekt.jpg",
     imgCaption: "Nybyggnation i Vemdalen – lösvirkeshus uppfört av Aronsgård Bygg & Service",
     desc: "Lösvirkeshus, timmerhus och jordbruksbyggnader – vi bygger från grunden.",
     longDesc:
@@ -32,7 +32,7 @@ const services: Service[] = [
   },
   {
     title: "Om- & tillbyggnader",
-    img: "/images/Altanrullstolsanpassad.png",
+    img: "/images/altanrullstols anpassning rätt.jpg",
     imgCaption: "Rullstolsanpassad altan – tillbyggnad utförd av Aronsgård Bygg & Service",
     desc: "Utöka eller förnya ditt hem med professionella lösningar.",
     longDesc:
@@ -45,7 +45,7 @@ const services: Service[] = [
   },
   {
     title: "Renoveringar",
-    img: "/images/Renovering.png",
+    img: "/images/Renovering villa korrekt.jpg",
     imgCaption: "Renovering – nya ytskikt och inredning av Aronsgård Bygg & Service",
     desc: "Fasadrenoveringar, badrum, kök och helrenoveringar.",
     longDesc:
@@ -58,7 +58,7 @@ const services: Service[] = [
   },
   {
     title: "Takbyten",
-    img: "/images/Takbyte.png",
+    img: "/images/Bytetak korrekt.jpg",
     imgCaption: "Takbyte med nytt undertak och klimatanpassad beläggning",
     desc: "Komplett takbyte med klimatanpassade material.",
     longDesc:
@@ -71,7 +71,7 @@ const services: Service[] = [
   },
   {
     title: "Finsnickeri",
-    img: "/images/Trappsnickeri.png",
+    img: "/images/Finsnickeri trapp korrekt.jpg",
     imgCaption: "Handbyggt trappräcke i furu – finsnickeri av Aronsgård Bygg & Service",
     desc: "Skräddarsytt snickeri, inredning och detaljarbeten.",
     longDesc:
