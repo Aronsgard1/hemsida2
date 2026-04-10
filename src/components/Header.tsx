@@ -35,15 +35,15 @@ export default function Header() {
           : "bg-white/95 backdrop-blur-sm shadow-sm"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-8 h-12 flex items-center justify-between">
+      <div className="container mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
         {/* Logotyp */}
         <Link href="/" className="flex items-center">
           <Image
             src="/images/Test logga.png"
             alt="Aronsgård Bygg & Service"
-            width={120}
-            height={60}
-            className={`h-10 w-auto object-contain transition-all ${
+            width={160}
+            height={80}
+            className={`h-16 w-auto object-contain transition-all ${
               transparent ? "brightness-0 invert" : ""
             }`}
             priority
