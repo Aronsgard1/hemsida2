@@ -46,7 +46,7 @@ export default function Header() {
             className={`h-16 w-auto object-contain transition-all ${
               transparent ? "brightness-0 invert" : ""
             }`}
-            style={{ fontWeight: 700 }}
+            style={{ fontWeight: 400 }}
             priority
           />
         </Link>
