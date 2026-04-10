@@ -41,9 +41,9 @@ export default function Header() {
           <Image
             src="/images/Test logga.png"
             alt="Aronsgård Bygg & Service"
-            width={160}
-            height={80}
-            className={`h-16 w-auto object-contain transition-all ${
+            width={200}
+            height={100}
+            className={`h-20 w-auto object-contain transition-all ${
               transparent ? "brightness-0 invert" : ""
             }`}
             style={{ fontWeight: 400 }}
