@@ -18,7 +18,7 @@ const values = [
   {
     icon: Hammer,
     title: "Bred erfarenhet",
-    desc: "Allt från timmerhus till jordbruksbyggnader – vi har kunskapen som krävs.",
+    desc: "Allt från platsbyggda kök\u00A0till jordbruksbyggnader – vi har kunskapen som krävs.",
   },
   {
     icon: TreePine,
