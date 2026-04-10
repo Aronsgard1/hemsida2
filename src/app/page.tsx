@@ -192,13 +192,9 @@ export default function HomePage() {
       <section className="section-padding bg-muted/50">
         <div className="container mx-auto">
           <div className="text-center mb-14">
-            <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-              Våra tjänster
-            </p>
-            <h2 className="mb-4">Vad vi bygger</h2>
+            <h2 className="mb-4">Vad vi kan erbjuda</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Vi erbjuder ett brett utbud av byggtjänster i Jämtland – från
-              nybyggnation och renoveringar till finsnickeri och takbyten.
+              Vi erbjuder till största del finsnickeri arbeten så som platsbyggda bokhyllor och kommoder och inredning till hem samt Totalentreprenad av lösvirkeshus och utbyggnader. i mån av tid tar vi även på oss förfrågningar som timring och byggnadsvård exempelvis fönsterrenoveringar.
             </p>
           </div>
           <TjansterSection />
