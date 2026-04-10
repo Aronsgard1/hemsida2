@@ -73,7 +73,7 @@ export default function HomePage() {
       {/* Hero – helskärm */}
       <section className="relative flex items-center" style={{ height: "calc(100vh - 48px)" }}>
         <Image
-          src="/images/Vemdalen nybyggnation korrekt.jpg"
+          src="/images/IMG_9939.jpeg"
           alt="Byggprojekt i Jämtland – Aronsgård Bygg & Service"
           fill
           className="object-cover object-center"
