@@ -106,35 +106,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Fördelsbanner */}
-      {(() => {
-        const items = [
-          "10+ års erfarenhet",
-          "100+ genomförda projekt",
-          "Hela Jämtland",
-          "Fast pris på totalentreprenad",
-          "ROT-avdrag tillämpas",
-          "Kostnadsfri offert",
-          "Timmerhus & lösvirkeshus",
-          "Jordbruksbyggnader",
-          "Finsnickeri & möbler",
-          "Löpande kostnad eller fast pris",
-        ];
-        const doubled = [...items, ...items];
-        return (
-          <div className="bg-foreground overflow-hidden py-3.5 select-none">
-            <div className="flex animate-marquee whitespace-nowrap gap-0">
-              {doubled.map((item, i) => (
-                <span key={i} className="inline-flex items-center gap-3 text-white text-sm font-medium px-6">
-                  <span className="text-white/30">|</span>
-                  {item}
-                </span>
-              ))}
-            </div>
-          </div>
-        );
-      })()}
-
       {/* Om oss */}
       <section className="py-12 md:py-16 px-4 md:px-8 bg-muted/30">
         <div className="container mx-auto">
