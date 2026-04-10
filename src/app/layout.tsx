@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   },
   description:
     "Aronsgård Bygg & Service – byggfirma i Hallen, Jämtland. Timmerhus, lösvirkeshus, takbyten, fasadrenoveringar och jordbruksbyggnader. Ring 073-800 09 79.",
+  icons: {
+    icon: "/images/Test logga.png",
+    apple: "/images/Test logga.png",
+  },
   openGraph: {
     siteName: "Aronsgård Bygg & Service",
     locale: "sv_SE",
