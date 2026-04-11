@@ -68,12 +68,12 @@ export default function OmOssPage() {
               </p>
               <h1 className="mb-6">Byggt på erfarenhet och förtroende</h1>
               <p className="text-lg text-muted-foreground leading-relaxed mb-5">
-                Aronsgård Bygg och Service grundades 2018 av Robin Aronsson.
+                Aronsgård Bygg och Service grundades 2018 av Robin Aronsgård.
                 Det som började som ett litet snickeriföretag har vuxit till en
                 fullskalig byggfirma med uppdrag i hela Jämtland.
               </p>
               <p className="text-foreground/70 leading-relaxed mb-5">
-                Under åren har vi haft förmånen att arbeta med fantastiska
+                Under åren har jag haft förmånen att arbeta med fantastiska
                 kunder och byggt upp ett pålitligt nätverk av hantverkare som
                 delar vår syn på kvalitet och noggrannhet. Varje projekt – stort
                 som litet – bär vår signatur och är något vi är genuint stolta
