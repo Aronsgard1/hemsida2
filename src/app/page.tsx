@@ -127,27 +127,8 @@ export default function HomePage() {
               </p>
               <h2 className="mb-4">Erfaren byggfirma i Hallen, Jämtland</h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
-                Aronsgård Bygg och Service grundades 2018 av Robin Aronsson med
-                ett tydligt mål – att leverera solida byggen med genuint hantverk.
-                Sedan starten har vi byggt upp ett brett kontaktnät av pålitliga
-                hantverkare och genomfört projekt av alla storlekar, från små
-                snickeriuppdrag till fullskaliga nybyggnationer. Vi värdesätter
-                ett nära samarbete med varje kund och är stolta över de långsiktiga
-                relationer som vuxit fram längs vägen.
+                Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som trapp/inrednings snickare och blev tidigt en stor inspirationskälla för mig. Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.Som barn byggde jag ständigt olika projekt. Tillsammans med kompisar byggde vi lådbilar där jag ofta stod för både design och arbete, medan de bidrog med sällskap och skratt. Jag byggde också egna "Högtalar"-lådor i plywood där jag monterade högtalare jag hittat på återvinningen, målade dem i starka färger och stänkte glitter över dem för att ge dem en personlig stil. Samtidigt började jag skapa små möbler och lösningar till hemmet – till exempel en liten bänk till badkaret där man kunde ställa värmeljus och ha stöd för en bok, eller ett sideboard till hallen.På gymnasiet valde jag byggprogrammet och har sedan dess arbetat på olika byggföretag där jag fått bred erfarenhet inom branschen. Med åren har mitt intresse för att skapa genomtänkta helheter bara blivit starkare.
               </p>
-              <div className="hidden sm:grid grid-cols-2 gap-x-6 gap-y-4 mb-6">
-                {values.map((v) => (
-                  <div key={v.title} className="flex gap-2.5">
-                    <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
-                      <v.icon className="w-3.5 h-3.5 text-primary" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-semibold font-sans mb-0.5">{v.title}</p>
-                      <p className="text-muted-foreground text-xs leading-relaxed">{v.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
               <Link
                 href="/om-oss"
                 className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
