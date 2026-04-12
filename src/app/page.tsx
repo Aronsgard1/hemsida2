@@ -80,11 +80,11 @@ export default function HomePage() {
           priority
         />
 
-        {/* Fade to muted overlay */}
+        {/* Fade to muted overlay with dark top */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "linear-gradient(to bottom, transparent 10%, transparent 50%, rgb(249, 250, 251, 0.6) 100%)"
+            background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 30%, transparent 50%, rgb(249, 250, 251, 0.8) 100%)"
           }}
         />
 
@@ -150,7 +150,7 @@ export default function HomePage() {
       </section>
 
       {/* Projekt / Tjänster */}
-      <section className="section-padding bg-muted/50">
+      <section className="section-padding" style={{ backgroundColor: "#ede9e2" }}>
         <div className="container mx-auto">
           <div className="text-center mb-14">
             <h2 className="mb-4">Vad vi kan erbjuda</h2>
@@ -216,7 +216,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-muted/50">
+      <section className="section-padding" style={{ backgroundColor: "#e8e4db" }}>
         <div className="container mx-auto text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Kom igång
