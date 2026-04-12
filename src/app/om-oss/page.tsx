@@ -67,23 +67,8 @@ export default function OmOssPage() {
                 Om oss
               </p>
               <h1 className="mb-6">Byggt på erfarenhet och förtroende</h1>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-5">
-                Aronsgård Bygg och Service grundades 2018 av Robin Aronsgård.
-                Det som började som ett litet snickeriföretag har vuxit till en
-                fullskalig byggfirma med uppdrag i hela Jämtland.
-              </p>
-              <p className="text-foreground/70 leading-relaxed mb-5">
-                Under åren har jag haft förmånen att arbeta med fantastiska
-                kunder och byggt upp ett pålitligt nätverk av hantverkare som
-                delar vår syn på kvalitet och noggrannhet. Varje projekt – stort
-                som litet – bär vår signatur och är något vi är genuint stolta
-                över.
-              </p>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                Vi tror på öppen kommunikation, realistiska löften och ett
-                hantverk som håller över tid. Det är så vi bygger långsiktiga
-                relationer – med kunder, samarbetspartners och det samhälle vi
-                är en del av.
+                Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som möbelsnickare och blev tidigt en stor inspirationskälla för mig.Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.Som barn byggde jag ständigt olika projekt. Lådbilar med kompisar, egna "boombox"-lådor i plywood med högtalare från återvinningen, målade i starka färger och dekorerade med glitter. Samtidigt började jag bygga små möbler och lösningar till hemmet – där funktion och kreativitet möttes.På gymnasiet valde jag byggprogrammet och har sedan dess arbetat inom byggbranschen på olika företag. Med åren har mitt fokus blivit tydligare: att skapa helheter, inte bara bygga.Idag driver jag min egen firma med en tydlig ambition – att bygga hem där hantverk, material och funktion håller över tid.
               </p>
 
               {/* Stats */}
