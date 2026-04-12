@@ -93,7 +93,7 @@ export default function HomePage() {
           <p className="text-gray-700 font-semibold text-sm uppercase tracking-widest mb-5">
             Byggfirma i Jämtland
           </p>
-          <h1 className="text-gray-800 leading-tight mb-6 max-w-2xl">
+          <h1 className="text-gray-800 leading-tight mb-6 max-w-2xl font-serif">
             Aronsgård Bygg och Service
           </h1>
           <p className="text-gray-600 text-lg max-w-lg leading-relaxed mb-10">
@@ -134,7 +134,7 @@ export default function HomePage() {
               <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
                 Om mig
               </p>
-              <h2 className="mb-4">Med rötter i snickeriet och en passion för trä</h2>
+              <h2 className="mb-4 font-serif">Med rötter i snickeriet och en passion för trä</h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
                 Mitt intresse för byggande började i min pappas snickeri och har följt med mig sedan dess. Idag driver jag min egen byggfirma där jag skapar genomtänkta lösningar i trä – från konstruktion till färdig inredning. Jag bygger hem där varje detalj har en tanke bakom sig, och där helheten alltid står i centrum.
               </p>
@@ -153,7 +153,7 @@ export default function HomePage() {
       <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="text-center mb-14">
-            <h2 className="mb-4">Vad vi kan erbjuda</h2>
+            <h2 className="mb-4 font-serif">Vad vi kan erbjuda</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
               Vi erbjuder till största del finsnickeri arbeten så som platsbyggda bokhyllor och kommoder och inredning till hem samt Totalentreprenad av lösvirkeshus och utbyggnader. i mån av tid tar vi även på oss förfrågningar som timring och byggnadsvård exempelvis fönsterrenoveringar.
             </p>
@@ -168,7 +168,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Vänster kolumn */}
             <div>
-              <h2 className="mb-6">Ett sundare sätt att bygga</h2>
+              <h2 className="mb-6 font-serif">Ett sundare sätt att bygga</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Jag bygger lösvirkeshus med masonitebalkar och träfiberisolering – ett modernt träbaserat system som ger energieffektiva, hållbara och behagliga hem.
               </p>
@@ -221,7 +221,7 @@ export default function HomePage() {
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Kom igång
           </p>
-          <h2 className="mb-4">
+          <h2 className="mb-4 font-serif">
             Redo att starta ditt byggprojekt?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-10 text-lg">

@@ -66,7 +66,7 @@ export default function OmOssPage() {
               <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
                 Om oss
               </p>
-              <h1 className="mb-6">Byggt på erfarenhet och förtroende</h1>
+              <h1 className="mb-6 font-serif">Byggt på erfarenhet och förtroende</h1>
               <p className="text-foreground/70 leading-relaxed mb-8">
                 Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som trapp/inrednings snickare och blev tidigt en stor inspirationskälla för mig. Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.
               </p>
