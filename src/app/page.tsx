@@ -80,8 +80,11 @@ export default function HomePage() {
           priority
         />
 
+        {/* Fade to white overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/40 pointer-events-none" />
+
         {/* Textinnehåll */}
-        <div className="relative z-10 container mx-auto px-8 md:px-16 py-40">
+        <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
           <p className="text-white/70 font-semibold text-sm uppercase tracking-widest mb-5">
             Byggfirma i Jämtland
           </p>
