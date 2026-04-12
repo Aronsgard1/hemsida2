@@ -90,13 +90,13 @@ export default function HomePage() {
 
         {/* Textinnehåll */}
         <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
-          <p className="text-white/70 font-semibold text-sm uppercase tracking-widest mb-5">
+          <p className="text-slate-900 font-semibold text-sm uppercase tracking-widest mb-5">
             Byggfirma i Jämtland
           </p>
-          <h1 className="text-white leading-tight mb-6 max-w-2xl">
+          <h1 className="text-slate-900 leading-tight mb-6 max-w-2xl">
             Aronsgård Bygg och Service
           </h1>
-          <p className="text-white/70 text-lg max-w-lg leading-relaxed mb-10">
+          <p className="text-slate-700 text-lg max-w-lg leading-relaxed mb-10">
             Bred erfarenhet inom nybyggnation, renoveringar och
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
