@@ -18,7 +18,7 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: "Nybyggnation",
+    title: "Nyproduktion ",
     img: "/images/Vemdalen nybyggnation korrekt.jpg",
     imgCaption: "Nybyggnation i Vemdalen – lösvirkeshus uppfört av Aronsgård Bygg & Service",
     desc: "Lösvirkeshus, timmerhus och jordbruksbyggnader – vi bygger från grunden.",

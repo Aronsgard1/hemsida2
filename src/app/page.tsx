@@ -118,6 +118,7 @@ export default function HomePage() {
                 fill
                 loading="lazy"
                 className="object-cover object-center"
+                style={{ margin: 'auto' }}
               />
             </div>
             {/* Text */}
@@ -127,7 +128,7 @@ export default function HomePage() {
               </p>
               <h2 className="mb-4">Erfaren byggfirma i Hallen, Jämtland</h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
-                Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som trapp/inrednings snickare och blev tidigt en stor inspirationskälla för mig. Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.Som barn byggde jag ständigt olika projekt. Tillsammans med kompisar byggde vi lådbilar där jag ofta stod för både design och arbete, medan de bidrog med sällskap och skratt. Jag byggde också egna "Högtalar"-lådor i plywood där jag monterade högtalare jag hittat på återvinningen, målade dem i starka färger och stänkte glitter över dem för att ge dem en personlig stil. Samtidigt började jag skapa små möbler och lösningar till hemmet – till exempel en liten bänk till badkaret där man kunde ställa värmeljus och ha stöd för en bok, eller ett sideboard till hallen.På gymnasiet valde jag byggprogrammet och har sedan dess arbetat på olika byggföretag där jag fått bred erfarenhet inom branschen. Med åren har mitt intresse för att skapa genomtänkta helheter bara blivit starkare.
+                Med rötter i snickeriet och en passion för trä bygger jag hem där varje detalj räknas. Jag erbjuder helhetslösningar från stomme till handbyggd inredning. Hus skapade med hantverk, omtanke och material som åldras vackert. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som trapp/inrednings snickare och blev tidigt en stor inspirationskälla för mig. Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.Som barn byggde jag ständigt olika projekt. Tillsammans med kompisar byggde vi lådbilar där jag ofta stod för både design och arbete, medan de bidrog med sällskap och skratt. Jag byggde också egna "Högtalar"-lådor i plywood där jag monterade högtalare jag hittat på återvinningen, målade dem i starka färger och stänkte glitter över dem för att ge dem en personlig stil. Samtidigt började jag skapa små möbler och lösningar till hemmet – till exempel en liten bänk till badkaret där man kunde ställa värmeljus och ha stöd för en bok, eller ett sideboard till hallen.På gymnasiet valde jag byggprogrammet och har sedan dess arbetat på olika byggföretag där jag fått bred erfarenhet inom branschen. Med åren har mitt intresse för att skapa genomtänkta helheter bara blivit starkare.
               </p>
               <Link
                 href="/om-oss"
@@ -150,65 +151,6 @@ export default function HomePage() {
             </p>
           </div>
           <TjansterSection />
-        </div>
-      </section>
-
-      {/* Utvalda projekt */}
-      <section className="section-padding bg-background">
-        <div className="container mx-auto">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
-            <div>
-              <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-                Tidigare arbeten
-              </p>
-              <h2>Utvalda projekt</h2>
-            </div>
-            <Link
-              href="/projekt"
-              className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
-            >
-              Se alla projekt <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {["nybyggnation-rodstugan", "ladgard-balkarbete", "inredning-storhogna"]
-              .map((slug) => pastProjects.find((p) => p.slug === slug)!)
-              .map((p) => (
-              <Link
-                key={p.slug}
-                href="/projekt"
-                className="group flex flex-col bg-card rounded-xl overflow-hidden border border-border hover:border-primary/40 hover:shadow-lg transition-all duration-300"
-              >
-                <div className="aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={p.img}
-                    alt={p.imgAlt}
-                    width={800}
-                    height={600}
-                    loading="lazy"
-                    className="w-full h-full object-cover group-hover:brightness-105 transition-all duration-500"
-                  />
-                </div>
-                <div className="p-5 flex flex-col flex-1">
-                  <span className="text-xs font-semibold text-primary uppercase tracking-widest mb-1">
-                    {p.category}
-                  </span>
-                  <h3 className="text-base font-serif mb-1 group-hover:text-primary transition-colors">
-                    {p.title}
-                  </h3>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    {p.location} · {p.year}
-                  </p>
-                  <p className="text-sm text-foreground/70 leading-relaxed flex-1">
-                    {p.shortDesc}
-                  </p>
-                  <span className="inline-flex items-center text-primary text-sm font-medium gap-1 mt-4">
-                    Läs mer <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
