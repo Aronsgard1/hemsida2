@@ -89,7 +89,7 @@ export default function HomePage() {
             Aronsgård Bygg och Service
           </h1>
           <p className="text-white/70 text-lg max-w-lg leading-relaxed mb-10">
-            Bred erfarenhet inom nybyggnation, renoveringar, takbyten och
+            Bred erfarenhet inom nybyggnation, renoveringar och
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
           <div className="flex flex-wrap gap-4">
