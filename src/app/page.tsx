@@ -136,9 +136,7 @@ export default function HomePage() {
               </p>
               <h2 className="mb-4">Med rötter i snickeriet och en passion för trä</h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
-                Mitt intresse för byggande började i min pappas snickeri och har följt med mig sedan dess. Idag driver jag min egen byggfirma där jag skapar genomtänkta lösningar i trä – från konstruktion till färdig inredning.
-                <br />
-                Jag bygger hem där varje detalj har en tanke bakom sig, och där helheten alltid står i centrum.
+                Mitt intresse för byggande började i min pappas snickeri och har följt med mig sedan dess. Idag driver jag min egen byggfirma där jag skapar genomtänkta lösningar i trä – från konstruktion till färdig inredning. Jag bygger hem där varje detalj har en tanke bakom sig, och där helheten alltid står i centrum.
               </p>
               <Link
                 href="/om-oss"
