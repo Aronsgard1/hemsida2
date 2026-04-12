@@ -20,11 +20,14 @@ export default function ByggsystemPage() {
       <section className="py-16 md:py-24 px-4 md:px-8">
         <div className="container mx-auto max-w-3xl">
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-            Byggsystemet
+            Vårt byggsystem
           </p>
-          <h1 className="mb-6 font-serif">Träbaserad konstruktion för hållbar framtid</h1>
+          <h1 className="mb-6 font-serif">Genomtänkta konstruktioner i trä</h1>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Jag använder ett träbaserat byggsystem med masonitebalkar och träfibersolering. Det är en konstruktionsmetod som kombinerar moderna krav på energieffektivitet med traditionellt hantverk i trä.
+            Jag bygger lösvirkeshus där konstruktion, material och hantverk samverkar för att skapa hållbara hem. Genom att arbeta med träbaserade byggsystem kan jag skapa hus som är energieffektiva, hållbara och behagliga att bo i under lång tid.
+          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Grunden i konstruktionen är ett system där masonitebalkar kombineras med träfiberisolering. Det är en modern träbaserad lösning som ger flera tekniska och praktiska fördelar jämfört med traditionella konstruktioner.
           </p>
         </div>
       </section>
@@ -33,44 +36,82 @@ export default function ByggsystemPage() {
       <section className="py-16 md:py-24 px-4 md:px-8 bg-muted/30">
         <div className="container mx-auto max-w-3xl">
           <div className="space-y-12">
-            {/* Masonitebalkar */}
+            {/* Konstruktion med masonitebalkar */}
             <div>
-              <h2 className="mb-4 font-serif">Masonitebalkar som stomme</h2>
+              <h2 className="mb-4 font-serif">Konstruktion med masonitebalkar</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Stomstrukturen bygger på masonitebalkar – en väl provad konstruktionslösning som är både stark och lätt. Dessa balkar formar huskroppen och ger den strukturella stabiliteten som krävs för att hålla över tid.
+                Masonitebalkar används i väggar, tak och bjälklag för att skapa en stabil och energieffektiv stomme. Balkarna består av träflänsar med en livskiva av träfiber, vilket gör konstruktionen både stark och lätt.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Den här typen av konstruktion minskar mängden massivt trä i väggarna och därmed också köldbryggor. Resultatet blir en mer energieffektiv byggnad där isoleringen kan arbeta mer effektivt.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Masonitebalkar är framtidsvändiga eftersom de är gjorda av återvunnen wood fiber och kräver mindre energi att tillverka än helt nya massiva träkonstruktioner.
+                Masonitebalkar gör det också enklare att dra installationer i konstruktionen utan att kompromissa med hållfastheten.
               </p>
             </div>
 
             {/* Träfibersolering */}
             <div>
-              <h2 className="mb-4 font-serif">Träfibersolering för klimatkomfort</h2>
+              <h2 className="mb-4 font-serif">Träfiberisolering</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Isolering av träfibermaterial håller värmen inomhus under vintern och håller värmen ute under sommaren. Det är ett naturligt material som andas, vilket innebär att fukt kan passera genom väggarna på ett miljövänligt sätt.
+                Som isolering använder jag gärna träfiber, ett material som tillverkas av naturliga träfibrer.
               </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Till skillnad från många traditionella isoleringsmaterial har träfiber en högre densitet, vilket ger flera fördelar:
+              </p>
+              <ul className="space-y-2 mb-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-muted-foreground">Bättre värmelagring</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-muted-foreground">Stabilare inomhusklimat</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-muted-foreground">God ljuddämpning</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-muted-foreground">Diffusionsöppen konstruktion</span>
+                </li>
+              </ul>
               <p className="text-muted-foreground leading-relaxed">
-                Träfiberisolering är både miljövänlig och skapar ett behagligare inomhusklimat än syntiska isolermaterial. Det är ett val för den som bryr sig om både klimat och hälsa.
+                Det innebär att huset kan hantera fukt på ett naturligt sätt och bidra till ett mer behagligt inomhusklimat.
               </p>
             </div>
 
-            {/* Helhet och hållbarhet */}
+            {/* Ett sundare hus att bo i */}
             <div>
-              <h2 className="mb-4 font-serif">En hålbar helhet</h2>
+              <h2 className="mb-4 font-serif">Ett sundare hus att bo i</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Systemet är utformat för att hålla i generationer. Träbaserade konstruktioner åldras vackert – de blir bara finare med tiden, särskilt när de underhålls med omsorg.
+                När konstruktionen byggs upp av träbaserade material skapas ett hus som upplevs naturligt och behagligt att bo i. Materialen arbetar tillsammans och bidrar till en balanserad inomhusmiljö.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Det här byggsystemet passar perfekt för lösvirkeshus som ska byggas snabbt men långsiktigt. Det är en väg till framtiden som respekterar både traditioner och miljön.
+                Trä är också ett material som lagrar koldioxid under hela sin livstid, vilket gör träbaserade konstruktioner till ett mer hållbart val ur ett klimatperspektiv.
               </p>
             </div>
 
-            {/* Varför detta system */}
+            {/* Friheten i lösvirkeshus */}
             <div>
-              <h2 className="mb-4 font-serif">Varför jag valde detta system</h2>
+              <h2 className="mb-4 font-serif">Friheten i lösvirkeshus</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Jag har valt detta byggsystem för att det representerar allt jag tror på: kvalitet, hållbarhet och respekt för material. Det möjliggör snabb uppförande utan att offra långsiktighet eller estetik. Det är ett system som passar Jämtlands klimat och som kan justeras för individuelle önskemål utan stora komplikationer.
+                Genom att bygga i lösvirke kan varje hus anpassas efter platsen, arkitekturen och kundens behov. Konstruktionen är flexibel och ger stor frihet i planlösning, materialval och detaljer.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Det gör det möjligt att skapa hus där arkitektur, konstruktion och snickeri bildar en helhet – från stomme till handbyggd inredning.
+              </p>
+            </div>
+
+            {/* Från konstruktion till färdigt hem */}
+            <div>
+              <h2 className="mb-4 font-serif">Från konstruktion till färdigt hem</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Min ambition är att inte bara bygga huset utan att skapa hela hemmet. Därför arbetar jag gärna i projekt där jag kan leda processen från idé till färdigt resultat.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Det kan innebära allt från konstruktion och byggnation till specialsnickerier som kök, garderober och andra fasta inredningar – allt byggt med samma materialkänsla och hantverksfokus.
               </p>
             </div>
           </div>
@@ -78,7 +119,7 @@ export default function ByggsystemPage() {
           {/* CTA */}
           <div className="mt-16 pt-12 border-t border-border text-center">
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Intresserad av att bygga ett hus med detta system? Kontakta mig för att diskutera din projekt.
+              Intresserad av att bygga ett hus med detta system? Kontakta mig för att diskutera ditt projekt.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="hero" size="lg" asChild>
