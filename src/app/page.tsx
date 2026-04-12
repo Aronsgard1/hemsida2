@@ -295,7 +295,7 @@ export default function HomePage() {
                 />
               </div>
               {/* Front image with offset overlap */}
-              <div className="absolute top-8 left-8 w-3/5 h-3/5 rounded-lg overflow-hidden shadow-2xl z-10">
+              <div className="absolute bottom-8 right-8 w-3/5 h-3/5 rounded-lg overflow-hidden shadow-2xl z-10">
                 <Image
                   src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7204158639e84f849bfd50bfd90948cb"
                   alt="Nybyggnation exempel"
