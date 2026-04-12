@@ -90,21 +90,21 @@ export default function HomePage() {
 
         {/* Textinnehåll */}
         <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
-          <p className="text-slate-900 font-semibold text-sm uppercase tracking-widest mb-5">
+          <p className="text-gray-700 font-semibold text-sm uppercase tracking-widest mb-5">
             Byggfirma i Jämtland
           </p>
-          <h1 className="text-slate-900 leading-tight mb-6 max-w-2xl">
+          <h1 className="text-gray-800 leading-tight mb-6 max-w-2xl">
             Aronsgård Bygg och Service
           </h1>
-          <p className="text-slate-700 text-lg max-w-lg leading-relaxed mb-10">
+          <p className="text-gray-600 text-lg max-w-lg leading-relaxed mb-10">
             Bred erfarenhet inom nybyggnation, renoveringar och
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" asChild className="bg-transparent border-2 border-primary text-white hover:bg-primary transition-colors">
+            <Button size="lg" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
               <Link href="/kontakt">Begär offert</Link>
             </Button>
-            <Button size="lg" asChild className="bg-white/10 border border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
+            <Button size="lg" asChild className="bg-slate-700/40 border border-slate-600/50 text-gray-800 hover:bg-slate-700/60 backdrop-blur-sm">
               <a href="tel:+46738000979" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 073-800 09 79
