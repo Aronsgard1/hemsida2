@@ -81,7 +81,7 @@ export default function HomePage() {
         />
 
         {/* Fade to white overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/40 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent from-10% via-transparent via-50% to-white/70 pointer-events-none" />
 
         {/* Textinnehåll */}
         <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
