@@ -201,9 +201,15 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {/* Höger kolumn - tom för nu, kan fyllas med bild senare */}
-            <div className="bg-muted/20 rounded-lg h-96 flex items-center justify-center">
-              <p className="text-muted-foreground text-center">Plats för bild</p>
+            {/* Höger kolumn - Bild */}
+            <div className="relative rounded-lg overflow-hidden h-96">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fd20ded055ac448c9ba66f4d02469483b"
+                alt="Träbaserad konstruktion med masonitebalkar"
+                fill
+                className="object-cover object-center"
+                priority
+              />
             </div>
           </div>
         </div>
