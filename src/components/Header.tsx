@@ -19,7 +19,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   const isHome = pathname === "/";
-  const transparent = isHome;
+  const transparent = isHome && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -32,7 +32,7 @@ export default function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         transparent
           ? "bg-transparent"
-          : "bg-white/95 backdrop-blur-sm shadow-sm"
+          : "bg-gray-800/95 backdrop-blur-sm shadow-sm"
       }`}
     >
       <div className="container mx-auto px-4 md:px-8 h-64 flex items-center justify-between">
@@ -44,7 +44,7 @@ export default function Header() {
             width={240}
             height={120}
             className={`h-56 w-auto object-contain transition-all ${
-              transparent ? "brightness-0 invert" : ""
+              transparent ? "brightness-0 invert" : "brightness-0"
             }`}
             style={{ fontWeight: 400 }}
             priority
@@ -61,10 +61,10 @@ export default function Header() {
                 pathname === l.href
                   ? transparent
                     ? "text-white"
-                    : "text-primary"
+                    : "text-white"
                   : transparent
                   ? "text-white/80 hover:text-white"
-                  : "text-foreground/70 hover:text-foreground"
+                  : "text-white/70 hover:text-white"
               }`}
             >
               {l.label}
@@ -75,7 +75,7 @@ export default function Header() {
             className={`inline-flex items-center gap-1.5 text-sm font-semibold transition-colors ${
               transparent
                 ? "text-white/80 hover:text-white"
-                : "text-primary hover:text-primary/80"
+                : "text-white/80 hover:text-white"
             }`}
           >
             <Phone className="w-3.5 h-3.5" />
@@ -86,7 +86,7 @@ export default function Header() {
         {/* Mobilmeny-knapp */}
         <button
           className={`md:hidden p-2 transition-colors ${
-            transparent ? "text-white" : "text-foreground"
+            transparent ? "text-white" : "text-white"
           }`}
           onClick={() => setMenuOpen((v) => !v)}
           aria-label="Meny"
