@@ -29,8 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sv">
-      <body>
-        <div className="flex flex-col min-h-screen">
+      <body style={{ backgroundColor: "#f5f1ec" }}>
+        <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#f5f1ec" }}>
           <Header />
           <main id="main-content" className="flex-1">
             {children}
