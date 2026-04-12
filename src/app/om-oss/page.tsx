@@ -68,7 +68,25 @@ export default function OmOssPage() {
               </p>
               <h1 className="mb-6">Byggt på erfarenhet och förtroende</h1>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som möbelsnickare och blev tidigt en stor inspirationskälla för mig.Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.Som barn byggde jag ständigt olika projekt. Lådbilar med kompisar, egna "boombox"-lådor i plywood med högtalare från återvinningen, målade i starka färger och dekorerade med glitter. Samtidigt började jag bygga små möbler och lösningar till hemmet – där funktion och kreativitet möttes.På gymnasiet valde jag byggprogrammet och har sedan dess arbetat inom byggbranschen på olika företag. Med åren har mitt fokus blivit tydligare: att skapa helheter, inte bara bygga.Idag driver jag min egen firma med en tydlig ambition – att bygga hem där hantverk, material och funktion håller över tid.
+                Jag startade mitt byggföretag 2018, men mitt intresse för trä och byggande började långt tidigare. Redan i skolåldern tillbringade jag mycket tid i min pappas snickeri och verkstad där jag fick prova, experimentera och utveckla min kreativitet. Min pappa arbetade som möbelsnickare och blev tidigt en stor inspirationskälla för mig. Jag minns hur jag ofta cyklade till hans arbetsplats efter skolan för att titta på de vackra trappor och möbler som tog form där – och ibland hade jag turen att få med mig en bit ädelträ hem att skapa något eget av.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                Som barn byggde jag ständigt olika projekt. Tillsammans med kompisar byggde vi lådbilar där jag ofta stod för både design och arbete, medan de bidrog med sällskap och skratt. Jag byggde också egna "Boombox"-lådor i plywood där jag monterade högtalare jag hittat på återvinningen, målade dem i starka färger och stänkte glitter över dem för att ge dem en personlig stil. Samtidigt började jag skapa små möbler och lösningar till hemmet – till exempel en liten bänk till badkaret där man kunde ställa värmeljus och ha stöd för en bok.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                På gymnasiet valde jag byggprogrammet och har sedan dess arbetat på olika byggföretag där jag fått bred erfarenhet inom branschen. Med åren har mitt intresse för att skapa genomtänkta helheter bara blivit starkare.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                Min vision är att kunna leverera nyckelfärdiga hus, gärna byggda med återvunna och hållbara material. Jag vill ta rollen som totalentreprenör och leda hela projektet – från idé till färdigt hem. I dessa projekt vill jag också skapa den fasta inredningen själv: handbyggda kök, garderober, kommoder och andra specialsnickerier som ger varje hem en unik karaktär och en tydlig hantverkskänsla.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                Materialet spelar en central roll i mitt arbete. Oavsett om det handlar om massivt trä eller faner, jämtländsk furu eller ädelträ som ask, ek eller valnöt, strävar jag alltid efter att skapa hållbara och vackra lösningar där hantverket får stå i centrum.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                En viktig del av min framtida inriktning är att nischa mig mot lösvirkeshus byggda i träbaserade konstruktioner, där stommar av masonitebalkar kombineras med träfiberisolering. Det är en byggmetod som både känns rätt och gör gott – för huset, för människorna som bor i det och för miljön.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-8">
+                För mig handlar byggande inte bara om att sätta upp väggar. Det handlar om att skapa hem med själ, där material, hantverk och funktion möts i något som håller över generationer.
               </p>
 
               {/* Stats */}
