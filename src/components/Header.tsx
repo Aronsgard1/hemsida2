@@ -35,7 +35,9 @@ export default function Header() {
           : "bg-gray-800/95 backdrop-blur-sm shadow-sm"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-8 h-64 flex items-center justify-between">
+      <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 ${
+        transparent ? "h-64" : "h-32"
+      }`}>
         {/* Logotyp */}
         <Link href="/" className="flex items-center">
           <Image
@@ -43,8 +45,8 @@ export default function Header() {
             alt="Aronsgård Bygg & Service"
             width={240}
             height={120}
-            className={`h-56 w-auto object-contain transition-all ${
-              transparent ? "brightness-0 invert" : "brightness-0"
+            className={`w-auto object-contain transition-all ${
+              transparent ? "h-56 brightness-0 invert" : "h-28 brightness-0"
             }`}
             style={{ fontWeight: 400 }}
             priority
