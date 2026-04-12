@@ -45,7 +45,7 @@ const services: Service[] = [
   },
   {
     title: "Totalentreprenad",
-    img: "/images/Nybyggnation rödstug.jpeg",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32",
     imgCaption: "Totalentreprenad – från idé till färdigt hem",
     desc: "Från idé till färdigt hem.",
     longDesc:
