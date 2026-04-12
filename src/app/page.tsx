@@ -94,7 +94,7 @@ export default function HomePage() {
             Byggfirma i Jämtland
           </p>
           <h1 className="text-gray-800 leading-tight mb-6 max-w-2xl font-serif">
-            Aronsgård Bygg och Service
+            Där idé blir verklighet.
           </h1>
           <p className="text-gray-600 text-lg max-w-lg leading-relaxed mb-10">
             Bred erfarenhet inom nybyggnation, renoveringar och
