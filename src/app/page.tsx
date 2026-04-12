@@ -284,13 +284,25 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <div className="relative rounded-lg overflow-hidden h-80">
-              <Image
-                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32"
-                alt="Totalentreprenad – från idé till färdigt hem"
-                fill
-                className="object-cover"
-              />
+            <div className="relative h-80">
+              {/* Back image */}
+              <div className="absolute inset-0 rounded-lg overflow-hidden">
+                <Image
+                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32"
+                  alt="Totalentreprenad – från idé till färdigt hem"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              {/* Front image with overlap */}
+              <div className="absolute bottom-0 right-0 w-2/3 h-2/3 rounded-lg overflow-hidden shadow-lg z-10">
+                <Image
+                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7204158639e84f849bfd50bfd90948cb"
+                  alt="Nybyggnation exempel"
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
