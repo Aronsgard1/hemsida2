@@ -31,16 +31,16 @@ const services: Service[] = [
     ],
   },
   {
-    title: "Om- & tillbyggnader",
-    img: "/images/altanrullstols anpassning rätt.jpg",
-    imgCaption: "Rullstolsanpassad altan – tillbyggnad utförd av Aronsgård Bygg & Service",
-    desc: "Utöka eller förnya ditt hem med professionella lösningar.",
+    title: "Finsnickeri",
+    img: "/images/Finsnickeri trapp korrekt.jpg",
+    imgCaption: "Handbyggt trappräcke i furu – finsnickeri av Aronsgård Bygg & Service",
+    desc: "Skräddarsytt snickeri, inredning och detaljarbeten.",
     longDesc:
-      "Vill du bygga ut, lägga till ett uterum, bastu eller förråd? Vi planerar och genomför tillbyggnader som smälter in naturligt med befintlig byggnad, med full hänsyn till gällande byggregler.",
+      "Från handbyggda möbler och trappor till skåpsinredning och detaljer i trä – vi tillverkar och monterar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.",
     details: [
-      "Uterum, verandor & altaner",
-      "Bastur, förråd & garage",
-      "Tillgänglighetsanpassningar",
+      "Trappor & räcken i massivt trä",
+      "Möbler, skåp & inredningsdetaljer",
+      "Allt skräddarsytt efter dina önskemål",
     ],
   },
   {
@@ -70,16 +70,16 @@ const services: Service[] = [
     ],
   },
   {
-    title: "Finsnickeri",
-    img: "/images/Finsnickeri trapp korrekt.jpg",
-    imgCaption: "Handbyggt trappräcke i furu – finsnickeri av Aronsgård Bygg & Service",
-    desc: "Skräddarsytt snickeri, inredning och detaljarbeten.",
+    title: "Om- & tillbyggnader",
+    img: "/images/altanrullstols anpassning rätt.jpg",
+    imgCaption: "Rullstolsanpassad altan – tillbyggnad utförd av Aronsgård Bygg & Service",
+    desc: "Utöka eller förnya ditt hem med professionella lösningar.",
     longDesc:
-      "Från handbyggda möbler och trappor till skåpsinredning och detaljer i trä – vi tillverkar och monterar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.",
+      "Vill du bygga ut, lägga till ett uterum, bastu eller förråd? Vi planerar och genomför tillbyggnader som smälter in naturligt med befintlig byggnad, med full hänsyn till gällande byggregler.",
     details: [
-      "Trappor & räcken i massivt trä",
-      "Möbler, skåp & inredningsdetaljer",
-      "Allt skräddarsytt efter dina önskemål",
+      "Uterum, verandor & altaner",
+      "Bastur, förråd & garage",
+      "Tillgänglighetsanpassningar",
     ],
   },
   {
