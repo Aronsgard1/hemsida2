@@ -153,6 +153,59 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Byggsystem */}
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#f5f1ec" }}>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            {/* Vänster kolumn */}
+            <div>
+              <h2 className="mb-6 font-serif">Ett sundare sätt att bygga</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Jag bygger lösvirkeshus med masonitebalkar och träfiberisolering – ett modernt träbaserat system som ger energieffektiva, hållbara och behagliga hem.
+              </p>
+
+              {/* Punktlista */}
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3">
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
+                  <span className="text-foreground">Färre köldbryggor</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
+                  <span className="text-foreground">Bättre inomhusklimat</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
+                  <span className="text-foreground">Naturliga material</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
+                  <span className="text-foreground">Stabil temperatur året runt</span>
+                </li>
+              </ul>
+
+              <Link
+                href="/byggsystem"
+                className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
+              >
+                Läs mer om byggsystemet <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* Höger kolumn - Bild */}
+            <div className="relative rounded-lg overflow-hidden h-96">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fd20ded055ac448c9ba66f4d02469483b"
+                alt="Träbaserad konstruktion med masonitebalkar"
+                fill
+                className="object-cover object-center"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Lösvirkeshus */}
       <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#2d4a3f" }}>
         <div className="container mx-auto">
@@ -338,59 +391,6 @@ export default function HomePage() {
         }}
       >
         <div className="absolute inset-0 bg-black/10" />
-      </section>
-
-      {/* Byggsystem */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#f5f1ec" }}>
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            {/* Vänster kolumn */}
-            <div>
-              <h2 className="mb-6 font-serif">Ett sundare sätt att bygga</h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Jag bygger lösvirkeshus med masonitebalkar och träfiberisolering – ett modernt träbaserat system som ger energieffektiva, hållbara och behagliga hem.
-              </p>
-
-              {/* Punktlista */}
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="text-gray-800 font-semibold mt-1">✓</span>
-                  <span className="text-foreground">Färre köldbryggor</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-gray-800 font-semibold mt-1">✓</span>
-                  <span className="text-foreground">Bättre inomhusklimat</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-gray-800 font-semibold mt-1">✓</span>
-                  <span className="text-foreground">Naturliga material</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-gray-800 font-semibold mt-1">✓</span>
-                  <span className="text-foreground">Stabil temperatur året runt</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/byggsystem"
-                className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
-              >
-                Läs mer om byggsystemet <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            {/* Höger kolumn - Bild */}
-            <div className="relative rounded-lg overflow-hidden h-96">
-              <Image
-                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fd20ded055ac448c9ba66f4d02469483b"
-                alt="Träbaserad konstruktion med masonitebalkar"
-                fill
-                className="object-cover object-center"
-                priority
-              />
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* CTA */}
