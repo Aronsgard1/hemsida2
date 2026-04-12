@@ -144,7 +144,7 @@ export default function HomePage() {
                 href="/om-oss"
                 className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
               >
-                Läs mer om mig <ArrowRight className="w-4 h-4" />
+                Dethär är min historia <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
