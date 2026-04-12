@@ -216,7 +216,7 @@ export default function HomePage() {
       </section>
 
       {/* Byggsystem */}
-      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
+      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Vänster kolumn */}
@@ -269,7 +269,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
+      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Kom igång
