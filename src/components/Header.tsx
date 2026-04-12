@@ -19,7 +19,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   const isHome = pathname === "/";
-  const transparent = isHome && !scrolled;
+  const transparent = isHome;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
