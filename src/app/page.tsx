@@ -80,8 +80,13 @@ export default function HomePage() {
           priority
         />
 
-        {/* Fade to white overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent from-10% via-transparent via-50% to-white/70 pointer-events-none" />
+        {/* Fade to muted overlay */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: "linear-gradient(to bottom, transparent 10%, transparent 50%, rgb(249, 250, 251, 0.3) 100%)"
+          }}
+        />
 
         {/* Textinnehåll */}
         <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
