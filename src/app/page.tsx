@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* Om oss */}
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-muted/30">
+      <section className="py-12 md:py-16 px-4 md:px-8">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* Bild */}
@@ -150,7 +150,7 @@ export default function HomePage() {
       </section>
 
       {/* Projekt / Tjänster */}
-      <section className="section-padding" style={{ backgroundColor: "#ede9e2" }}>
+      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="text-center mb-14">
             <h2 className="mb-4">Vad vi kan erbjuda</h2>
@@ -216,7 +216,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding" style={{ backgroundColor: "#e8e4db" }}>
+      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Kom igång
