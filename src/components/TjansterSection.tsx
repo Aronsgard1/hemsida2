@@ -167,7 +167,7 @@ export default function TjansterSection() {
           <button
             key={s.title}
             onClick={() => setSelected(s)}
-            className="group text-left bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/30 hover:shadow-xl transition-all duration-300"
+            className="group text-left bg-card rounded-2xl overflow-hidden border-2 border-gray-800 hover:border-gray-900 hover:shadow-xl transition-all duration-300"
           >
             <div className="aspect-[4/3] overflow-hidden">
               <Image

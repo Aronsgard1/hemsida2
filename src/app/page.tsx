@@ -180,7 +180,7 @@ export default function HomePage() {
             {/* Steg 1 */}
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                <div className="w-14 h-14 rounded-full bg-gray-800 text-white flex items-center justify-center text-2xl font-serif font-bold">
                   1
                 </div>
               </div>
@@ -193,7 +193,7 @@ export default function HomePage() {
             {/* Steg 2 */}
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                <div className="w-14 h-14 rounded-full bg-gray-800 text-white flex items-center justify-center text-2xl font-serif font-bold">
                   2
                 </div>
               </div>
@@ -206,7 +206,7 @@ export default function HomePage() {
             {/* Steg 3 */}
             <div className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                <div className="w-14 h-14 rounded-full bg-gray-800 text-white flex items-center justify-center text-2xl font-serif font-bold">
                   3
                 </div>
               </div>
@@ -247,19 +247,19 @@ export default function HomePage() {
               {/* Punktlista */}
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-3">
-                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
                   <span className="text-foreground">Färre köldbryggor</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
                   <span className="text-foreground">Bättre inomhusklimat</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
                   <span className="text-foreground">Naturliga material</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-primary font-semibold mt-1">✓</span>
+                  <span className="text-gray-800 font-semibold mt-1">✓</span>
                   <span className="text-foreground">Stabil temperatur året runt</span>
                 </li>
               </ul>
@@ -300,10 +300,10 @@ export default function HomePage() {
             kostnad. ROT-avdrag tillämpas där det är aktuellt.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="hero" size="xl" asChild>
+            <Button variant="dark" size="xl" asChild>
               <Link href="/kontakt">Kontakta oss idag</Link>
             </Button>
-            <Button variant="outline" size="xl" asChild>
+            <Button variant="outline" size="xl" asChild className="border-gray-800 text-gray-800 hover:bg-gray-100">
               <a href="tel:+46738000979" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Ring oss
