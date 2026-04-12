@@ -73,8 +73,8 @@ export default function HomePage() {
       {/* Hero – helskärm */}
       <section className="relative flex items-end" style={{ height: "calc(100vh - 48px)" }}>
         <Image
-          src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F8f93065bcb494568bb301a907bf90e7b"
-          alt="Byggprojekt i Jämtland – Aronsgård Bygg & Service"
+          src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d"
+          alt="Jämtlands vackra landskap"
           fill
           className="object-cover object-center"
           priority
@@ -149,11 +149,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Parallax landscape image */}
+      {/* Parallax construction image */}
       <section
         className="relative w-full h-96 md:h-[50vh]"
         style={{
-          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')",
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F8f93065bcb494568bb301a907bf90e7b')",
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
