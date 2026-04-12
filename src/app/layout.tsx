@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ScrollAnimationObserver from "@/components/ScrollAnimationObserver";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aronsgard-bygg.se"),
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <body style={{ backgroundColor: "#f5f1ec" }}>
+        <ScrollAnimationObserver />
         <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#f5f1ec" }}>
           <Header />
           <main id="main-content" className="flex-1">

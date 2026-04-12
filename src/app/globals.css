@@ -116,4 +116,24 @@
       background-attachment: fixed;
     }
   }
+
+  /* Scroll fade-in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-scroll {
+    opacity: 0;
+  }
+
+  .fade-in-scroll.animate {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
 }
