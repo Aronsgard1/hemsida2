@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* Om mig */}
-      <section className="py-12 md:py-16 px-4 md:px-8" style={{ backgroundColor: "#e8dfd4" }}>
+      <section className="py-12 md:py-16 px-4 md:px-8" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* Bild */}
@@ -150,7 +150,7 @@ export default function HomePage() {
       </section>
 
       {/* Projekt / Tjänster */}
-      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
+      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto">
           <div className="text-center mb-14">
             <h2 className="mb-4 font-serif">Vad vi kan erbjuda</h2>
