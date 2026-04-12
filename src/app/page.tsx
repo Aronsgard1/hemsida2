@@ -162,6 +162,27 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Byggsystem */}
+      <section className="section-padding bg-background">
+        <div className="container mx-auto">
+          <div className="max-w-2xl">
+            <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+              Byggsystemet
+            </p>
+            <h2 className="mb-4">Träbaserad konstruktion som håller</h2>
+            <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
+              Jag använder ett träbaserat byggsystem med masonitebalkar och träfibersolering. Det är en modern konstruktionsmetod som kombinerar effektivitet med miljövänlighet och traditionellt hantverk i trä.
+            </p>
+            <Link
+              href="/byggsystem"
+              className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
+            >
+              Läs mer om byggsystemet <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="section-padding bg-muted/50">
         <div className="container mx-auto text-center">
