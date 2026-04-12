@@ -162,6 +162,59 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Så arbetar jag */}
+      <section className="section-padding" style={{ backgroundColor: "#ffffff" }}>
+        <div className="container mx-auto">
+          <div className="text-center mb-14">
+            <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+              Så arbetar jag
+            </p>
+            <h2 className="mb-6 font-serif">Från idé till färdigt hem</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Steg 1 */}
+            <div className="text-center">
+              <div className="flex justify-center mb-6">
+                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                  1
+                </div>
+              </div>
+              <h3 className="text-lg font-serif mb-3">Dialog & idé</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Vi går igenom dina behov och visioner.
+              </p>
+            </div>
+
+            {/* Steg 2 */}
+            <div className="text-center">
+              <div className="flex justify-center mb-6">
+                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                  2
+                </div>
+              </div>
+              <h3 className="text-lg font-serif mb-3">Planering & byggnation</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Jag leder projektet och bygger med fokus på kvalitet.
+              </p>
+            </div>
+
+            {/* Steg 3 */}
+            <div className="text-center">
+              <div className="flex justify-center mb-6">
+                <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-serif font-bold">
+                  3
+                </div>
+              </div>
+              <h3 className="text-lg font-serif mb-3">Färdigt hem</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Ett genomtänkt resultat där allt hänger ihop.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Byggsystem */}
       <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
