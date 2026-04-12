@@ -31,19 +31,6 @@ const services: Service[] = [
     ],
   },
   {
-    title: "Totalentreprenad",
-    img: "/images/Nybyggnation rödstug.jpeg",
-    imgCaption: "Totalentreprenad – från idé till färdigt hem",
-    desc: "Från idé till färdigt hem.",
-    longDesc:
-      "Vi tar ansvar för hela projektet, från initial planering till slutlig överlämning. Du behöver bara presentera idén, vi hanterar allt annat.",
-    details: [
-      "Hela projektet under ledning",
-      "Samordning av hantverkare",
-      "Tid och budgetgaranti",
-    ],
-  },
-  {
     title: "Specialsnickerier",
     img: "/images/Finsnickeri trapp korrekt.jpg",
     imgCaption: "Specialsnickerier – handbyggd inredning",
@@ -54,6 +41,19 @@ const services: Service[] = [
       "Handbyggda kök",
       "Garderober & möbler",
       "Allt skräddarsytt efter dina önskemål",
+    ],
+  },
+  {
+    title: "Totalentreprenad",
+    img: "/images/Nybyggnation rödstug.jpeg",
+    imgCaption: "Totalentreprenad – från idé till färdigt hem",
+    desc: "Från idé till färdigt hem.",
+    longDesc:
+      "Vi tar ansvar för hela projektet, från initial planering till slutlig överlämning. Du behöver bara presentera idén, vi hanterar allt annat.",
+    details: [
+      "Hela projektet under ledning",
+      "Samordning av hantverkare",
+      "Tid och budgetgaranti",
     ],
   },
   {
