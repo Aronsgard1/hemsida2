@@ -50,9 +50,9 @@ const localBusinessJsonLd = {
   email: "aronsgard.bos@icloud.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Sportvägen 3 Lgh 1102",
-    addressLocality: "Frösön",
-    postalCode: "832 44",
+    streetAddress: "Trägsta 17",
+    addressLocality: "Hallen",
+    postalCode: "284 91",
     addressRegion: "Jämtland",
     addressCountry: "SE",
   },

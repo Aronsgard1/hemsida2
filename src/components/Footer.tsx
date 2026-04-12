@@ -64,8 +64,8 @@ const Footer = () => (
           <li className="flex items-start gap-3">
             <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
             <span>
-              Sportvägen 3 Lgh 1102<br />
-              832 44 Frösön<br />
+              Trägsta 17<br />
+              284 91 Hallen<br />
               <span className="text-background/50 text-xs">Utgår från Hallen</span>
             </span>
           </li>
