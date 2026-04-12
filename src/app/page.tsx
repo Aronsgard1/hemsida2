@@ -153,16 +153,123 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Projekt / Tjänster */}
+      {/* Lösvirkeshus */}
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#2d4a3f" }}>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="mb-6 font-serif text-white">Lösvirkeshus</h2>
+              <p className="text-white/80 leading-relaxed mb-6">
+                Skräddarsydda hus byggda från grunden. Vi hanterar hela processen från tomtbesiktning och grundarbete till färdigställt hus. Med lång erfarenhet av nybyggnation i Jämtlands klimat vet vi vilka material och metoder som håller.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button variant="dark" size="lg" asChild>
+                  <Link href="/kontakt">Kontakta oss</Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild className="border-white text-white hover:bg-white/10">
+                  <Link href="/om-oss">Läs mer</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="relative rounded-lg overflow-hidden h-80">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7272fabb3fdc4547af8b6a10e8c1f7ae"
+                alt="Lösvirkeshus – nybyggnation från grunden"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Specialsnickerier */}
       <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="mb-4 font-serif">Vad vi kan erbjuda</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Vi erbjuder till största del finsnickeri arbeten så som platsbyggda bokhyllor och kommoder och inredning till hem samt Totalentreprenad av lösvirkeshus och utbyggnader. i mån av tid tar vi även på oss förfrågningar som timring och byggnadsvård exempelvis fönsterrenoveringar.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative rounded-lg overflow-hidden h-80 order-2 lg:order-1">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F892589fddda0499285cb2caf101f6ef6"
+                alt="Specialsnickerier – handbyggd inredning"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="mb-6 font-serif">Specialsnickerier</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Kök, garderober och inredning byggt för hand. Från handbyggda kök och garderober till specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button variant="dark" size="lg" asChild>
+                  <Link href="/kontakt">Kontakta oss</Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <Link href="/om-oss">Läs mer</Link>
+                </Button>
+              </div>
+            </div>
           </div>
-          <TjansterSection />
+        </div>
+      </section>
+
+      {/* Totalentreprenad */}
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#2d4a3f" }}>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="mb-6 font-serif text-white">Totalentreprenad</h2>
+              <p className="text-white/80 leading-relaxed mb-6">
+                Från idé till färdigt hem. Vi tar ansvar för hela projektet, från initial planering till slutlig överlämning. Du behöver bara presentera idén, vi hanterar allt annat.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button variant="dark" size="lg" asChild>
+                  <Link href="/kontakt">Kontakta oss</Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild className="border-white text-white hover:bg-white/10">
+                  <Link href="/om-oss">Läs mer</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="relative rounded-lg overflow-hidden h-80">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32"
+                alt="Totalentreprenad – från idé till färdigt hem"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Om- & tillbyggnad */}
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative rounded-lg overflow-hidden h-80 order-2 lg:order-1">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0a7486edbfb14e3fa87fb819c5ce7021"
+                alt="Om- & tillbyggnad – utveckling av befintliga hem"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="mb-6 font-serif">Om- & tillbyggnad</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Utveckling av befintliga hem. Vill du bygga ut, lägga till ett uterum, bastu eller förråd? Vi planerar och genomför tillbyggnader som smälter in naturligt med befintlig byggnad, med full hänsyn till gällande byggregler.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button variant="dark" size="lg" asChild>
+                  <Link href="/kontakt">Kontakta oss</Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <Link href="/om-oss">Läs mer</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
