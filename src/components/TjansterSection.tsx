@@ -19,7 +19,7 @@ interface Service {
 const services: Service[] = [
   {
     title: "Lösvirkeshus",
-    img: "/images/Vemdalen nybyggnation korrekt.jpg",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7272fabb3fdc4547af8b6a10e8c1f7ae",
     imgCaption: "Lösvirkeshus – nybyggnation från grunden",
     desc: "Skräddarsydda hus byggda från grunden.",
     longDesc:
