@@ -58,7 +58,7 @@ const services: Service[] = [
   },
   {
     title: "Om- & tillbyggnad",
-    img: "/images/altanrullstols anpassning rätt.jpg",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0a7486edbfb14e3fa87fb819c5ce7021",
     imgCaption: "Om- & tillbyggnad – utveckling av befintliga hem",
     desc: "Utveckling av befintliga hem.",
     longDesc:
