@@ -149,21 +149,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Parallax construction image */}
-      <section
-        className="relative w-full h-96 md:h-[50vh]"
-        style={{
-          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F8f93065bcb494568bb301a907bf90e7b')",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover"
-        }}
-      >
-        {/* Optional overlay for depth */}
-        <div className="absolute inset-0 bg-black/10" />
-      </section>
-
       {/* Projekt / Tjänster */}
       <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto">
