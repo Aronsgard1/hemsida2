@@ -45,8 +45,8 @@ export default function Header() {
             alt="Aronsgård Bygg & Service"
             width={240}
             height={120}
-            className={`w-auto object-contain transition-all ${
-              transparent ? "h-56 brightness-0 invert" : "h-28 brightness-0"
+            className={`w-auto object-contain transition-all brightness-0 invert ${
+              transparent ? "h-56" : "h-28"
             }`}
             style={{ fontWeight: 400 }}
             priority
