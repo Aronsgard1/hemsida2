@@ -219,6 +219,20 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Parallax landscape image */}
+      <section
+        className="relative w-full h-96 md:h-[50vh]"
+        style={{
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover"
+        }}
+      >
+        <div className="absolute inset-0 bg-black/10" />
+      </section>
+
       {/* Byggsystem */}
       <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
