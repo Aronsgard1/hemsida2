@@ -40,7 +40,7 @@ const Footer = () => (
           {[
             { href: "/", label: "Hem" },
             { href: "/projekt", label: "Projekt" },
-            { href: "/om-oss", label: "Om oss" },
+            { href: "/om-oss", label: "Om mig" },
             { href: "/kontakt", label: "Kontakt" },
           ].map((l) => (
             <li key={l.href}>

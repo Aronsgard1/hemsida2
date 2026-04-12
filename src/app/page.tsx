@@ -132,9 +132,9 @@ export default function HomePage() {
             {/* Text */}
             <div>
               <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-                Om oss
+                Om mig
               </p>
-              <h2 className="mb-4">Erfaren byggfirma i Hallen, Jämtland</h2>
+              <h2 className="mb-4">Med rötter i snickeriet och en passion för trä</h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
                 Mitt intresse för byggande började i min pappas snickeri och har följt med mig sedan dess. Idag driver jag min egen byggfirma där jag skapar genomtänkta lösningar i trä – från konstruktion till färdig inredning.
                 <br />

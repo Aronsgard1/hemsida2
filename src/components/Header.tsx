@@ -9,7 +9,7 @@ import { Menu, X, Phone } from "lucide-react";
 const navLinks = [
   { href: "/", label: "Hem" },
   { href: "/projekt", label: "Projekt" },
-  { href: "/om-oss", label: "Om oss" },
+  { href: "/om-oss", label: "Om mig" },
   { href: "/kontakt", label: "Kontakt" },
 ];
 
