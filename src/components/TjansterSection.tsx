@@ -18,81 +18,55 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: "Nyproduktion ",
+    title: "Lösvirkeshus",
     img: "/images/Vemdalen nybyggnation korrekt.jpg",
-    imgCaption: "Nybyggnation i Vemdalen – lösvirkeshus uppfört av Aronsgård Bygg & Service",
-    desc: "Lösvirkeshus, timmerhus och jordbruksbyggnader – vi bygger från grunden.",
+    imgCaption: "Lösvirkeshus – nybyggnation från grunden",
+    desc: "Skräddarsydda hus byggda från grunden.",
     longDesc:
       "Vi hanterar hela processen från tomtbesiktning och grundarbete till färdigställt hus. Med lång erfarenhet av nybyggnation i Jämtlands klimat vet vi vilka material och metoder som håller.",
     details: [
       "Lösvirkeshus & timmerhus",
-      "Jordbruksbyggnader",
       "Grundläggning, stomresning & tak",
+      "Färdig överlämning",
     ],
   },
   {
-    title: "Finsnickeri",
-    img: "/images/Finsnickeri trapp korrekt.jpg",
-    imgCaption: "Handbyggt trappräcke i furu – finsnickeri av Aronsgård Bygg & Service",
-    desc: "Skräddarsytt snickeri, inredning och detaljarbeten.",
+    title: "Totalentreprenad",
+    img: "/images/Nybyggnation rödstug.jpeg",
+    imgCaption: "Totalentreprenad – från idé till färdigt hem",
+    desc: "Från idé till färdigt hem.",
     longDesc:
-      "Från handbyggda möbler och trappor till skåpsinredning och detaljer i trä – vi tillverkar och monterar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.",
+      "Vi tar ansvar för hela projektet, från initial planering till slutlig överlämning. Du behöver bara presentera idén, vi hanterar allt annat.",
     details: [
-      "Trappor & räcken i massivt trä",
-      "Möbler, skåp & inredningsdetaljer",
+      "Hela projektet under ledning",
+      "Samordning av hantverkare",
+      "Tid och budgetgaranti",
+    ],
+  },
+  {
+    title: "Specialsnickerier",
+    img: "/images/Finsnickeri trapp korrekt.jpg",
+    imgCaption: "Specialsnickerier – handbyggd inredning",
+    desc: "Kök, garderober och inredning byggt för hand.",
+    longDesc:
+      "Från handbyggda kök och garderober till specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.",
+    details: [
+      "Handbyggda kök",
+      "Garderober & möbler",
       "Allt skräddarsytt efter dina önskemål",
     ],
   },
   {
-    title: "Renoveringar",
-    img: "/images/Renovering villa korrekt.jpg",
-    imgCaption: "Renovering – nya ytskikt och inredning av Aronsgård Bygg & Service",
-    desc: "Fasadrenoveringar, badrum, kök och helrenoveringar.",
-    longDesc:
-      "Vi renoverar allt från enstaka rum till hela fastigheter. Oavsett om det handlar om nya ytskikt, badrumsrenovering eller en fullständig helrenovering tar vi helhetsansvar och koordinerar alla hantverkare.",
-    details: [
-      "Badrum, kök & våtrum",
-      "Golv, tak & väggar",
-      "Fasad & yttre underhåll",
-    ],
-  },
-  {
-    title: "Takbyten",
-    img: "/images/Bytetak korrekt.jpg",
-    imgCaption: "Takbyte med nytt undertak och klimatanpassad beläggning",
-    desc: "Komplett takbyte med klimatanpassade material.",
-    longDesc:
-      "Ett gammalt tak som börjar läcka eller ruttna behöver åtgärdas snabbt. Vi river, åtgärdar eventuella fuktskador i konstruktionen och lägger ett nytt tak anpassat för nordiskt klimat – med garanti på utfört arbete.",
-    details: [
-      "Komplett rivning & ny takläggning",
-      "Plåt, betong- eller lertegel",
-      "Kontroll & åtgärd av fuktskador",
-    ],
-  },
-  {
-    title: "Om- & tillbyggnader",
+    title: "Om- & tillbyggnad",
     img: "/images/altanrullstols anpassning rätt.jpg",
-    imgCaption: "Rullstolsanpassad altan – tillbyggnad utförd av Aronsgård Bygg & Service",
-    desc: "Utöka eller förnya ditt hem med professionella lösningar.",
+    imgCaption: "Om- & tillbyggnad – utveckling av befintliga hem",
+    desc: "Utveckling av befintliga hem.",
     longDesc:
       "Vill du bygga ut, lägga till ett uterum, bastu eller förråd? Vi planerar och genomför tillbyggnader som smälter in naturligt med befintlig byggnad, med full hänsyn till gällande byggregler.",
     details: [
       "Uterum, verandor & altaner",
       "Bastur, förråd & garage",
-      "Tillgänglighetsanpassningar",
-    ],
-  },
-  {
-    title: "Övrigt",
-    img: "/Sovrumfjällmiljö.jpg",
-    imgCaption: "Sovrum i fjällmiljö – vi tar oss an projekt i hela Jämtland",
-    desc: "Har du ett projekt som inte passar i en kategori? Vi tar oss an de flesta uppdrag – hör av dig!",
-    longDesc:
-      "Inte alla byggprojekt ryms i en låda. Vi har erfarenhet av ett brett spektrum av arbeten och tar gärna en dialog om vad just ditt projekt kräver. Kontakta oss med en beskrivning så berättar vi om vi kan hjälpa till.",
-    details: [
-      "Stall & lantbruksbyggnader",
-      "Restaurering av äldre byggnader",
-      "Småjobb & akuta reparationer",
+      "Anpassning av befintliga byggnader",
     ],
   },
 ]
