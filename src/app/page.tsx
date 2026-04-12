@@ -72,14 +72,17 @@ export default function HomePage() {
       />
 
       {/* Hero – helskärm */}
-      <section className="relative flex items-end" style={{ height: "calc(100vh - 48px)" }}>
-        <Image
-          src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d"
-          alt="Jämtlands vackra landskap"
-          fill
-          className="object-cover object-center"
-          priority
-        />
+      <section
+        className="relative flex items-end"
+        style={{
+          height: "calc(100vh - 48px)",
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover"
+        }}
+      >
 
         {/* Fade to muted overlay with dark top */}
         <div
