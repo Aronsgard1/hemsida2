@@ -32,7 +32,7 @@ const services: Service[] = [
   },
   {
     title: "Specialsnickerier",
-    img: "/images/Finsnickeri trapp korrekt.jpg",
+    img: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F892589fddda0499285cb2caf101f6ef6",
     imgCaption: "Specialsnickerier – handbyggd inredning",
     desc: "Kök, garderober och inredning byggt för hand.",
     longDesc:
