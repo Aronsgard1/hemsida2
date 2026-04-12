@@ -289,11 +289,8 @@ export default function HomePage() {
       {/* CTA */}
       <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto text-center">
-          <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-            Kom igång
-          </p>
           <h2 className="mb-4 font-serif">
-            Redo att starta ditt byggprojekt?
+            Låt oss skapa något tillsammans.
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-10 text-lg">
             Vi erbjuder fast pris på totalentreprenad eller arbete på löpande
