@@ -35,7 +35,7 @@ export default function Header() {
           : "bg-gray-800/70 backdrop-blur-sm shadow-sm"
       }`}
     >
-      <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 ${
+      <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 relative ${
         transparent ? "h-64" : "h-32"
       }`}>
         {/* Logotyp */}
@@ -54,7 +54,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8 absolute right-4 md:right-8 top-0 pt-6">
           {navLinks.map((l) => (
             <Link
               key={l.href}
