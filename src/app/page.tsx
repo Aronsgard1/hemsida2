@@ -100,7 +100,7 @@ export default function HomePage() {
           <h1 className="text-gray-800 leading-tight mb-6 max-w-2xl font-serif">
             Där idé blir verklighet.
           </h1>
-          <p className="text-gray-600 text-lg max-w-lg leading-relaxed mb-10">
+          <p className="text-gray-800 text-lg max-w-lg leading-relaxed mb-10">
             Bred erfarenhet inom nybyggnation, renoveringar och
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
