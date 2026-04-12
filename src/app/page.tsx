@@ -101,10 +101,10 @@ export default function HomePage() {
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
+            <Button size="xl" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
               <Link href="/kontakt">Begär offert</Link>
             </Button>
-            <Button size="lg" asChild className="bg-slate-700/40 border border-slate-600/50 text-gray-800 hover:bg-slate-700/60 backdrop-blur-sm">
+            <Button size="xl" asChild className="bg-slate-700/40 border border-slate-600/50 text-gray-800 hover:bg-slate-700/60 backdrop-blur-sm">
               <a href="tel:+46738000979" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 073-800 09 79
@@ -282,10 +282,10 @@ export default function HomePage() {
             kostnad. ROT-avdrag tillämpas där det är aktuellt.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="hero" size="lg" asChild>
+            <Button variant="hero" size="xl" asChild>
               <Link href="/kontakt">Kontakta oss idag</Link>
             </Button>
-            <Button variant="outline" size="lg" asChild>
+            <Button variant="outline" size="xl" asChild>
               <a href="tel:+46738000979" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Ring oss
