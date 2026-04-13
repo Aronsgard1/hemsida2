@@ -319,7 +319,7 @@ export default function HomePage() {
                   <Link href="/kontakt">Kontakta oss</Link>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <Link href="/om-oss">Läs mer</Link>
+                  <Link href="/om-tillbyggnader">Läs mer om tillbyggnader</Link>
                 </Button>
               </div>
             </div>
