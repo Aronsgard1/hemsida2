@@ -412,6 +412,17 @@ export default function HomePage() {
             Vi erbjuder fast pris på totalentreprenad eller arbete på löpande
             kostnad. ROT-avdrag tillämpas där det är aktuellt.
           </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button size="xl" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
+              <Link href="/kontakt">Begär offert</Link>
+            </Button>
+            <Button size="xl" asChild className="bg-slate-700/40 border border-slate-600/50 text-gray-800 hover:bg-slate-700/20 transition-colors">
+              <a href="tel:+46738000979" className="flex items-center gap-2">
+                <Phone className="w-5 h-5" />
+                073-800 09 79
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
     </>
