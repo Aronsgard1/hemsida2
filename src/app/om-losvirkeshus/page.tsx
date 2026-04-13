@@ -52,8 +52,14 @@ export default function OmLosvirkeshusgPage() {
             <p className="text-foreground/70 leading-relaxed mb-8">
               Lösvirkeshus är en klassisk och beprövad byggmetod som är perfekt för Jämtlands klimat. Jag bygger skräddarsydda hus från grunden, anpassade efter din vision, tomten och dina behov. Du kan komma med egna ritningar, eller så kan jag hjälpa dig att hitta en arkitekt som kan ta fram professionella planer. Varje projekt är unikt, och jag tar mig tid att förstå dina önskningar innan arbetet börjar.
             </p>
+            <p className="text-foreground/70 font-semibold mb-4">
+              Lösvirkeshus med träbaserad konstruktion
+            </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
-              Från tomtbesiktning och grundarbete till färdigställt hus – jag hanterar hela processen, oavsett om vi utgår från dina egna idéer eller arkitekttecknade ritningar. Jag väljer material noggrant baserat på klimat och långsiktighet, och säkerställer att byggnationen följer alla byggregler och standarder. Med många års erfarenhet av nybyggnation i Jämtland vet jag vilka material och metoder som håller i hårt väder och frost.
+              Vi har under åren byggt flera lösvirkeshus med masonitebalkar och träfiberisolering – och resultaten har varit väldigt goda, både i byggprocessen och i det färdiga huset. Det här är ett byggsystem som ger energieffektiva hus med jämnare inomhusklimat, där värmen stannar kvar på vintern och sommarvärmen hålls ute bättre. Samtidigt skapar det en lätt och smidig byggprocess, vilket ofta ger kortare byggtid utan att kompromissa med kvaliteten.
+            </p>
+            <p className="text-foreground/70 leading-relaxed mb-8">
+              Från tomtbesiktning och grundarbete till färdigställt hus – jag hanterar hela processen, oavsett om vi utgår från dina egna idéer eller arkitekttecknade ritningar. Tillsammans skapar materialen ett hus som känns sunt, tyst, behagligt och hållbart – ett modernt sätt att bygga i trä, med tydliga fördelar både idag och över tid. Jag väljer material noggrant baserat på klimat och långsiktighet, och säkerställer att byggnationen följer alla byggregler och standarder. Med många års erfarenhet av nybyggnation i Jämtland vet jag vilka material och metoder som håller i hårt väder och frost.
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
               En lösvirkeshus är inte bara ett hus – det är en investering för framtiden. Jag bygger med fokus på hållbarhet, energieffektivitet och kvalitet så att ditt hem stannar vackert och funktionellt i många decennier.
