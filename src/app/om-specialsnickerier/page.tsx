@@ -50,9 +50,6 @@ export default function OmSpecialsnickerierPage() {
             </p>
             <h1 className="mb-6 font-serif">Handbyggd inredning som håller</h1>
             <p className="text-foreground/70 leading-relaxed mb-8">
-              För mig handlar specialsnickerier om mycket mer än bara att tillverka möbler – det handlar om att skapa genomtänkta lösningar som passar perfekt in i ditt hem och din livsstil. Varje projekt är unikt, och jag tar tid att förstå dina behov innan jag börjar arbeta.
-            </p>
-            <p className="text-foreground/70 leading-relaxed mb-8">
               Vi bygger specialsnickerier som anpassas efter både hemmet och dina behov. Varje lösning tas fram med fokus på funktion, material och helhet – där inget lämnas åt slumpen.
             </p>
 
@@ -67,16 +64,8 @@ export default function OmSpecialsnickerierPage() {
               <li>TV-möbler och mediaväggar</li>
               <li>Bänkar och sittmöbler</li>
               <li>Inbyggda lösningar i hall och entré</li>
-              <li>Fönsternischer och detaljer</li>
               <li>Speciallösningar efter behov</li>
             </ul>
-
-            <p className="text-foreground/70 leading-relaxed mb-8">
-              Från skräddarsydda kök och rymliga garderober till specialtillverkade trappor och andra detaljer – allt tillverkas med fokus på hantverk och kvalitet. Jag väljer material noggrant, arbetar precist och slutför varje detalj med omsorg. Resultatet är möbler och inredning som både ser vacker ut och håller i många år.
-            </p>
-            <p className="text-foreground/70 leading-relaxed mb-8">
-              Mina specialsnickerier är inte bara funktionella – de är också ett utryck för personlig stil och kvalitetskraftsmanskap. Det finns en särskild tillfredsställelse i att skapa något som en familj kommer att njuta av och älska genom många år.
-            </p>
 
             <Button variant="hero" asChild>
               <Link href="/kontakt">Kontakta mig</Link>
