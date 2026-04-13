@@ -274,20 +274,20 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative h-80">
-              {/* Back image - now at bottom-right */}
-              <div className="absolute w-3/5 h-3/5 rounded-lg overflow-hidden shadow-2xl" style={{ bottom: "calc(2rem - 75.6px)", right: "calc(2rem - 75.6px)" }}>
+              {/* Large background image - behind the small one */}
+              <div className="absolute inset-0 rounded-lg overflow-hidden">
                 <Image
-                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32"
-                  alt="Totalentreprenad – från idé till färdigt hem"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7204158639e84f849bfd50bfd90948cb"
+                  alt="Nybyggnation exempel"
                   fill
                   className="object-cover"
                 />
               </div>
-              {/* Front image - now fills container */}
-              <div className="absolute inset-0 rounded-lg overflow-hidden z-10">
+              {/* Small image - in front at bottom-right */}
+              <div className="absolute w-3/5 h-3/5 rounded-lg overflow-hidden shadow-2xl z-10" style={{ bottom: "calc(2rem - 75.6px)", right: "calc(2rem - 75.6px)" }}>
                 <Image
-                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7204158639e84f849bfd50bfd90948cb"
-                  alt="Nybyggnation exempel"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0ebe6c48155a44929d3455f527185c32"
+                  alt="Totalentreprenad – från idé till färdigt hem"
                   fill
                   className="object-cover"
                 />
