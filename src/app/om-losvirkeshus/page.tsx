@@ -82,9 +82,6 @@ export default function OmLosvirkeshusgPage() {
             Kontakta mig för en kostnadsfri konsultation om ditt projekt.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="dark" size="xl" asChild>
-              <Link href="/kontakt">Begär offert</Link>
-            </Button>
             <Button variant="outline" size="xl" asChild className="border-gray-800 text-gray-800 hover:bg-gray-100">
               <Link href="/om-oss">Läs mer om mig</Link>
             </Button>
