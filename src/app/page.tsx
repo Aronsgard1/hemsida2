@@ -270,14 +270,12 @@ export default function HomePage() {
               <p className="text-white/80 leading-relaxed mb-6">
                 Från idé till färdigt hem. Vi tar ansvar för hela projektet, från initial planering till slutlig överlämning. Du behöver bara presentera idén, vi hanterar allt annat.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Button variant="dark" size="lg" asChild>
-                  <Link href="/kontakt">Kontakta oss</Link>
-                </Button>
-                <Button size="lg" asChild className="bg-slate-700 border border-slate-700 text-white hover:bg-slate-800 transition-colors">
-                  <Link href="/om-oss">Läs mer</Link>
-                </Button>
-              </div>
+              <Link
+                href="/om-totalentreprenad"
+                className="inline-flex items-center gap-2 text-white font-semibold text-sm hover:gap-3 transition-all"
+              >
+                Läs mer om Totalentreprenad <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
             <div className="relative h-80">
               {/* Large background image - behind the small one */}
