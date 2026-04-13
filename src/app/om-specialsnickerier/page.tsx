@@ -66,10 +66,6 @@ export default function OmSpecialsnickerierPage() {
               <li>Inbyggda lösningar i hall och entré</li>
               <li>Speciallösningar efter behov</li>
             </ul>
-
-            <Button variant="hero" asChild>
-              <Link href="/kontakt">Kontakta mig</Link>
-            </Button>
           </div>
         </div>
       </section>
