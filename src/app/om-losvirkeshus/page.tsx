@@ -64,10 +64,6 @@ export default function OmLosvirkeshusgPage() {
             <p className="text-foreground/70 leading-relaxed mb-8">
               För oss är det här ett modernt och hållbart sätt att bygga – där resultatet inte bara fungerar tekniskt, utan också känns rätt att leva i.
             </p>
-
-            <Button variant="hero" asChild>
-              <Link href="/kontakt">Kontakta mig</Link>
-            </Button>
           </div>
         </div>
       </section>
