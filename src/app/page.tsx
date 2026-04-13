@@ -219,7 +219,7 @@ export default function HomePage() {
                 <Button variant="dark" size="lg" asChild>
                   <Link href="/kontakt">Kontakta oss</Link>
                 </Button>
-                <Button variant="outline" size="lg" asChild className="border-white text-white hover:bg-white/10">
+                <Button size="lg" asChild className="bg-slate-700 border border-slate-700 text-white hover:bg-slate-800 transition-colors">
                   <Link href="/om-oss">Läs mer</Link>
                 </Button>
               </div>
@@ -279,7 +279,7 @@ export default function HomePage() {
                 <Button variant="dark" size="lg" asChild>
                   <Link href="/kontakt">Kontakta oss</Link>
                 </Button>
-                <Button variant="outline" size="lg" asChild className="border-white text-white hover:bg-white/10">
+                <Button size="lg" asChild className="bg-slate-700 border border-slate-700 text-white hover:bg-slate-800 transition-colors">
                   <Link href="/om-oss">Läs mer</Link>
                 </Button>
               </div>
