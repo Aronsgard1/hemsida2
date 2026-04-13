@@ -50,7 +50,7 @@ const localBusinessJsonLd = {
   email: "aronsgard.bos@icloud.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Trägsta 17",
+    streetAddress: "Trägsta 172",
     addressLocality: "Hallen",
     postalCode: "284 91",
     addressRegion: "Jämtland",
@@ -250,14 +250,6 @@ export default function HomePage() {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Kök, garderober och inredning byggt för hand. Från handbyggda kök och garderober till specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Button variant="dark" size="lg" asChild>
-                  <Link href="/kontakt">Kontakta oss</Link>
-                </Button>
-                <Button variant="outline" size="lg" asChild>
-                  <Link href="/om-oss">Läs mer</Link>
-                </Button>
-              </div>
             </div>
           </div>
         </div>
