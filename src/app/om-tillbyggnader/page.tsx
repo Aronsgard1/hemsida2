@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImageCarousel from "@/components/ImageCarousel";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -80,9 +81,9 @@ export default function OmTillbyggnadPage() {
         </div>
       </section>
 
-      {/* Projektbilder */}
+      {/* Projektbilder - Bildspel */}
       <section className="py-16 md:py-24 px-4 md:px-8" style={{ backgroundColor: "#f5f1ec" }}>
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-4xl">
           <div className="mb-12 text-center">
             <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
               Projekt & Exempel
@@ -90,8 +91,8 @@ export default function OmTillbyggnadPage() {
             <h2 className="mb-4 font-serif">Exempel från mina tillbyggnader</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
+          <ImageCarousel
+            images={[
               {
                 src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F669847cfa5c640649be188069e03b9d5",
                 alt: "Tillbyggnad - modern design",
@@ -116,20 +117,8 @@ export default function OmTillbyggnadPage() {
                 src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F9fee25f8d9e6430e8d802f4a55676b83",
                 alt: "Pergola och uterum",
               },
-            ].map((image, idx) => (
-              <div
-                key={idx}
-                className="relative rounded-lg overflow-hidden aspect-square hover:shadow-lg transition-shadow"
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-            ))}
-          </div>
+            ]}
+          />
         </div>
       </section>
 
