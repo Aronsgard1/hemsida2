@@ -108,7 +108,7 @@ export default function HomePage() {
             <Button size="xl" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
               <Link href="/kontakt">Begär offert</Link>
             </Button>
-            <Button size="xl" asChild className="bg-slate-700/40 border border-slate-600/50 text-gray-800 hover:bg-slate-700/60 backdrop-blur-sm">
+            <Button size="xl" asChild className="bg-slate-700/40 border border-slate-600/50 text-white hover:bg-slate-700/60 backdrop-blur-sm">
               <a href="tel:+46738000979" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 073-800 09 79
