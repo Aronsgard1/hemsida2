@@ -220,14 +220,6 @@ export default function HomePage() {
               <p className="text-white/80 leading-relaxed mb-6">
                 Skräddarsydda hus byggda från grunden. Vi hanterar hela processen från tomtbesiktning och grundarbete till färdigställt hus. Med lång erfarenhet av nybyggnation i Jämtlands klimat vet vi vilka material och metoder som håller.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Button variant="dark" size="lg" asChild>
-                  <Link href="/kontakt">Kontakta oss</Link>
-                </Button>
-                <Button size="lg" asChild className="bg-slate-700 border border-slate-700 text-white hover:bg-slate-800 transition-colors">
-                  <Link href="/om-oss">Läs mer</Link>
-                </Button>
-              </div>
             </div>
             <div className="relative rounded-lg overflow-hidden h-80">
               <Image
