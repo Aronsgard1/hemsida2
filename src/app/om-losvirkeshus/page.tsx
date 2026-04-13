@@ -66,14 +66,23 @@ export default function OmLosvirkeshusgPage() {
               För oss är det här ett modernt och hållbart sätt att bygga – där resultatet inte bara fungerar tekniskt, utan också känns rätt att leva i.
             </p>
 
-            {/* Bildspel - Lägg till bilder här när de är klara */}
-            {false && (
-              <ImageCarousel
-                images={[
-                  // { src: "...", alt: "..." },
-                ]}
-              />
-            )}
+            {/* Bildspel - Lösvirkeshus projekt */}
+            <ImageCarousel
+              images={[
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F4dff2758a33445679bc1b38899d7cc6a", alt: "Lösvirkeshus projekt 1" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Ffb06e0510c514846a0fddc6f92142e96", alt: "Lösvirkeshus projekt 2" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F896dd755d9804eb0b03da02c6fbd0dd9", alt: "Lösvirkeshus projekt 3", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fe565c27af05d41ef80b25b18e6f0ecb0", alt: "Lösvirkeshus projekt 4", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Faa60e1df74ad4df7a6d7cff44a10dfa9", alt: "Lösvirkeshus projekt 5", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Ff14dae4901354747b83e9c16e2cfee43", alt: "Lösvirkeshus projekt 6", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7ed76dc6bc6f4af199d211aca3892580", alt: "Lösvirkeshus projekt 7", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fa798fd9b5723479fa5d9babbdee1a0b8", alt: "Lösvirkeshus projekt 8" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F4950e890da8048d6a7fa8e101f8e6b4c", alt: "Lösvirkeshus projekt 9" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fce1eb982c3c4418e9d1ea842fa1d672d", alt: "Lösvirkeshus projekt 10" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fad06067e4f6746c6ad0f1e7f2c5135e3", alt: "Lösvirkeshus projekt 11" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fc8f05fcca50e455cbc18b06bf0491a3e", alt: "Lösvirkeshus projekt 12" },
+              ]}
+            />
           </div>
         </div>
       </section>
