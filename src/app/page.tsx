@@ -318,14 +318,12 @@ export default function HomePage() {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Utveckling av befintliga hem. Vill du bygga ut, lägga till ett uterum, bastu eller förråd? Vi planerar och genomför tillbyggnader som smälter in naturligt med befintlig byggnad, med full hänsyn till gällande byggregler.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Button variant="dark" size="lg" asChild>
-                  <Link href="/kontakt">Kontakta oss</Link>
-                </Button>
-                <Button variant="outline" size="lg" asChild>
-                  <Link href="/om-tillbyggnader">Läs mer om tillbyggnader</Link>
-                </Button>
-              </div>
+              <Link
+                href="/om-tillbyggnader"
+                className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
+              >
+                Läs mer om Om- & tillbyggnad <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </div>
