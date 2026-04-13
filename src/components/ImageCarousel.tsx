@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 interface CarouselImage {
   src: string;
   alt: string;
+  rotation?: number;
 }
 
 interface ImageCarouselProps {
@@ -59,6 +60,9 @@ export default function ImageCarousel({ images }: ImageCarouselProps) {
               fill
               className="object-cover"
               priority={index === currentIndex}
+              style={{
+                transform: image.rotation ? `rotate(${image.rotation}deg)` : undefined,
+              }}
             />
           </div>
         ))}

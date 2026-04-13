@@ -93,6 +93,7 @@ export default function OmTillbyggnadPage() {
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F9fee25f8d9e6430e8d802f4a55676b83",
                   alt: "Pergola och uterum",
+                  rotation: 90,
                 },
               ]}
             />
