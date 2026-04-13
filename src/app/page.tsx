@@ -248,7 +248,7 @@ export default function HomePage() {
             <div className="order-1 lg:order-2">
               <h2 className="mb-6 font-serif">Specialsnickerier</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Kök, garderober och inredning byggt för hand. Från handbyggda kök och garderober till specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.
+                Kök, garderober, trappor och inredning byggt för hand. Från handbyggda kök och garderober till trappor och specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.
               </p>
             </div>
           </div>
