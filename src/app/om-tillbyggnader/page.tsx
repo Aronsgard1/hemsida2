@@ -84,7 +84,7 @@ export default function OmTillbyggnadPage() {
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F459b8816d55f482d8080bdd255023e8e",
-                  alt: "Tillbyggnad natt",
+                  alt: "Bastu lavar",
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Ff0d83d52127947e791f49755fa441f20",
