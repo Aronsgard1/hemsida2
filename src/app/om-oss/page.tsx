@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Om oss – Byggfirma i Hallen | Aronsgård Bygg",
+  title: "Om mig – Byggfirma i Hallen | Aronsgård Bygg",
   description:
-    "Lär känna Aronsgård Bygg & Service – byggfirma i Hallen, Jämtland med bred erfarenhet inom timmerhus och byggbranschen. Kvalitet och hållbarhet.",
+    "Lär känna Robin från Aronsgård Bygg & Service – byggfirma i Hallen, Jämtland med bred erfarenhet inom timmerhus och byggbranschen. Kvalitet och hållbarhet.",
   alternates: { canonical: "/om-oss" },
 };
 
@@ -24,7 +24,7 @@ const breadcrumbJsonLd = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Om oss",
+      name: "Om mig",
       item: "https://aronsgard-bygg.se/om-oss",
     },
   ],
@@ -43,7 +43,7 @@ export default function OmOssPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <Breadcrumbs items={[{ label: "Om oss" }]} />
+      <Breadcrumbs items={[{ label: "Om mig" }]} />
 
       {/* Intro – bild + text */}
       <section className="py-16 md:py-24 px-4 md:px-8">
@@ -63,7 +63,7 @@ export default function OmOssPage() {
             {/* Text */}
             <div>
               <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-                Om oss
+                Om mig
               </p>
               <h1 className="mb-6 font-serif">Byggt på erfarenhet och förtroende</h1>
               <p className="text-foreground/70 leading-relaxed mb-8">
@@ -99,7 +99,7 @@ export default function OmOssPage() {
               </div>
 
               <Button variant="hero" asChild>
-                <Link href="/kontakt">Kontakta oss</Link>
+                <Link href="/kontakt">Kontakta mig</Link>
               </Button>
             </div>
           </div>
@@ -112,18 +112,18 @@ export default function OmOssPage() {
         style={{ backgroundImage: "url('/images/Parallax%20naturbild.jpg')" }}
       />
 
-      {/* Vår filosofi */}
+      {/* Min filosofi */}
       <section className="py-16 px-4 md:px-8 bg-muted/40">
         <div className="container mx-auto max-w-3xl text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-            Vår filosofi
+            Min filosofi
           </p>
-          <h2 className="mb-6">Vi bygger mer än hus</h2>
+          <h2 className="mb-6">Jag bygger mer än hus</h2>
           <p className="text-muted-foreground leading-relaxed text-lg">
-            För oss handlar byggande om mer än att sätta upp väggar och lägga
+            För mig handlar byggande om mer än att sätta upp väggar och lägga
             tak. Det handlar om att lyssna på kunden, förstå platsen och
             leverera något som känns rätt – både direkt och om tjugo år.
-            Jämtlands natur och klimat ställer höga krav, och det är krav vi
+            Jämtlands natur och klimat ställer höga krav, och det är krav jag
             välkomnar.
           </p>
         </div>
