@@ -63,17 +63,17 @@ export default function OmTillbyggnadPage() {
               </p>
               <h1 className="mb-6 font-serif">Utveckling av befintliga hem</h1>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                Många av våra projekt handlar om att utveckla och förbättra redan befintliga hem. Oavsett om det gäller att bygga ut med ett större kök, lägga till ett vackert uterum, installera en bastu eller bygga ett praktiskt förråd – vi förstår vikten av att tillbyggnaden smälter in naturligt med befintlig arkitektur.
+                Många av mina projekt handlar om att utveckla och förbättra redan befintliga hem. Det är ofta här som de mest känsliga och personliga uppdragen uppstår, för det handlar om att förstärka och vidareutveckla något som redan betyder mycket för människor. Oavsett om det gäller att bygga ut med ett större kök, lägga till ett vackert uterum, installera en bastu eller bygga ett praktiskt förråd – jag förstår vikten av att tillbyggnaden smälter in naturligt med befintlig arkitektur.
               </p>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                Vi arbetar noggrannt med planering och design för att säkerställa att alla nya delar passar harmoniskt ihop med den befintliga byggnaden. Samtidigt ser vi till att alla projekt följer gällande byggregler och krav för säkerhet och hållbarhet.
+                Jag arbetar noggrannt med planering och design för att säkerställa att alla nya delar passar harmoniskt ihop med den befintliga byggnaden. Det handlar inte bara om teknisk skicklighet, utan också om att kunna läsa en byggnad och förstå dess karaktär. Samtidigt ser jag till att alla projekt följer gällande byggregler och krav för säkerhet och hållbarhet.
               </p>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                Från de första ritningarna till slutresultatet är vi dina partners. Vi lyssnar på dina önskningar, förstår dina behov och levererar en tillbyggnad som ökar både värde och livskvalitet.
+                Från de första ritningarna till slutresultatet är jag din partner. Jag lyssnar på dina önskningar, förstår dina behov och levererar en tillbyggnad som ökar både värde och livskvalitet för många år framåt.
               </p>
 
               <Button variant="hero" asChild>
-                <Link href="/kontakt">Kontakta oss</Link>
+                <Link href="/kontakt">Kontakta mig</Link>
               </Button>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function OmTillbyggnadPage() {
             Vill du utveckla ditt hem?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-10 text-lg">
-            Kontakta oss idag för att diskutera din idé. Vi hjälper dig att planera och genomföra tillbyggnaden på ett sätt som passar ditt hem och dina behov.
+            Kontakta mig idag för att diskutera din idé. Jag hjälper dig att planera och genomföra tillbyggnaden på ett sätt som passar ditt hem och dina behov – både praktiskt och estetiskt.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button variant="dark" size="xl" asChild>
