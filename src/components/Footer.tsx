@@ -12,9 +12,10 @@ const Footer = () => (
         <Image
           src="/images/Test logga.png"
           alt="Aronsgård Bygg & Service logotyp"
-          width={140}
-          height={70}
+          width={280}
+          height={140}
           className="h-14 w-auto object-contain invert self-start"
+          quality={100}
         />
         <p className="text-background/60 text-sm leading-relaxed max-w-xs">
           Byggfirma med bred erfarenhet inom byggbranschen och timmerhus.
