@@ -32,7 +32,6 @@ const breadcrumbJsonLd = {
 
 const stats = [
   { value: "2018", label: "Grundat" },
-  { value: "100+", label: "Genomförda projekt" },
   { value: "Hela Jämtland", label: "Verksamhetsområde" },
 ];
 
