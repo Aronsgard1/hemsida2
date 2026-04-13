@@ -84,11 +84,11 @@ export default function HomePage() {
         }}
       >
 
-        {/* Fade to muted overlay with dark top */}
+        {/* Fade to dark overlay */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.25) 30%, rgba(0, 0, 0, 0.1) 50%, rgb(249, 250, 251, 0.5) 100%)"
+            background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.25) 30%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%)"
           }}
         />
 
