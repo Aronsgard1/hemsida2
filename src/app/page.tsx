@@ -92,6 +92,11 @@ export default function HomePage() {
           }}
         />
 
+        {/* Image credit */}
+        <div className="absolute bottom-6 right-6 z-10 pointer-events-none">
+          <p className="text-white/60 text-xs font-light">Bild: Vy mot Frösön/Östersund från Trägsta</p>
+        </div>
+
         {/* Textinnehåll */}
         <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
           <p className="text-white font-semibold text-sm uppercase tracking-widest mb-5">
