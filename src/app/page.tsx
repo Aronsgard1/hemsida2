@@ -207,7 +207,7 @@ export default function HomePage() {
       </section>
 
       {/* Lösvirkeshus */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#2d4a3f" }}>
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#9a8577" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -267,7 +267,7 @@ export default function HomePage() {
       </section>
 
       {/* Totalentreprenad */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#2d4a3f" }}>
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#9a8577" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
