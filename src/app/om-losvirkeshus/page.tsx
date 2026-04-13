@@ -50,10 +50,10 @@ export default function OmLosvirkeshusgPage() {
             </p>
             <h1 className="mb-6 font-serif">Nybyggnation från grunden</h1>
             <p className="text-foreground/70 leading-relaxed mb-8">
-              Lösvirkeshus är en klassisk och beprövad byggmetod som är perfekt för Jämtlands klimat. Jag bygger skräddarsydda hus från grunden, anpassade efter din vision, tomten och dina behov. Varje projekt är unikt, och jag tar mig tid att förstå dina önskningar innan arbetet börjar.
+              Lösvirkeshus är en klassisk och beprövad byggmetod som är perfekt för Jämtlands klimat. Jag bygger skräddarsydda hus från grunden, anpassade efter din vision, tomten och dina behov. Du kan komma med egna ritningar, eller så kan jag hjälpa dig att hitta en arkitekt som kan ta fram professionella planer. Varje projekt är unikt, och jag tar mig tid att förstå dina önskningar innan arbetet börjar.
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
-              Från tomtbesiktning och grundarbete till färdigställt hus – jag hanterar hela processen. Jag väljer material noggrant baserat på klimat och långsiktighet, och säkerställer att byggnationen följer alla byggregler och standarder. Med många års erfarenhet av nybyggnation i Jämtland vet jag vilka material och metoder som håller i hårt väder och frost.
+              Från tomtbesiktning och grundarbete till färdigställt hus – jag hanterar hela processen, oavsett om vi utgår från dina egna idéer eller arkitekttecknade ritningar. Jag väljer material noggrant baserat på klimat och långsiktighet, och säkerställer att byggnationen följer alla byggregler och standarder. Med många års erfarenhet av nybyggnation i Jämtland vet jag vilka material och metoder som håller i hårt väder och frost.
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
               En lösvirkeshus är inte bara ett hus – det är en investering för framtiden. Jag bygger med fokus på hållbarhet, energieffektivitet och kvalitet så att ditt hem stannar vackert och funktionellt i många decennier.
