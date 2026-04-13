@@ -220,6 +220,12 @@ export default function HomePage() {
               <p className="text-white/80 leading-relaxed mb-6">
                 Skräddarsydda hus byggda från grunden. Vi hanterar hela processen från tomtbesiktning och grundarbete till färdigställt hus. Med lång erfarenhet av nybyggnation i Jämtlands klimat vet vi vilka material och metoder som håller.
               </p>
+              <Link
+                href="/om-losvirkeshus"
+                className="inline-flex items-center gap-2 text-white font-semibold text-sm hover:gap-3 transition-all"
+              >
+                Läs mer om Lösvirkeshus <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
             <div className="relative rounded-lg overflow-hidden h-80">
               <Image
