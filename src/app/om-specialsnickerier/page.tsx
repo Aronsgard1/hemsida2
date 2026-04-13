@@ -53,6 +53,25 @@ export default function OmSpecialsnickerierPage() {
               För mig handlar specialsnickerier om mycket mer än bara att tillverka möbler – det handlar om att skapa genomtänkta lösningar som passar perfekt in i ditt hem och din livsstil. Varje projekt är unikt, och jag tar tid att förstå dina behov innan jag börjar arbeta.
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
+              Vi bygger specialsnickerier som anpassas efter både hemmet och dina behov. Varje lösning tas fram med fokus på funktion, material och helhet – där inget lämnas åt slumpen.
+            </p>
+
+            <p className="text-foreground/70 font-semibold mb-4">Vi bygger bland annat:</p>
+
+            <ul className="text-foreground/70 leading-relaxed mb-8 space-y-2">
+              <li>Kök – handbyggda och anpassade efter huset</li>
+              <li>Garderober och förvaring – platsbyggda lösningar</li>
+              <li>Kommoder och badrumsinredning</li>
+              <li>Trappor – från enkla till mer avancerade utföranden</li>
+              <li>Hyllor och bokhyllor</li>
+              <li>TV-möbler och mediaväggar</li>
+              <li>Bänkar och sittmöbler</li>
+              <li>Inbyggda lösningar i hall och entré</li>
+              <li>Fönsternischer och detaljer</li>
+              <li>Speciallösningar efter behov</li>
+            </ul>
+
+            <p className="text-foreground/70 leading-relaxed mb-8">
               Från skräddarsydda kök och rymliga garderober till specialtillverkade trappor och andra detaljer – allt tillverkas med fokus på hantverk och kvalitet. Jag väljer material noggrant, arbetar precist och slutför varje detalj med omsorg. Resultatet är möbler och inredning som både ser vacker ut och håller i många år.
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
