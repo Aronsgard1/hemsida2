@@ -79,8 +79,8 @@ export default function OmLosvirkeshusgPage() {
                 { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fa798fd9b5723479fa5d9babbdee1a0b8", alt: "Lösvirkeshus projekt 8" },
                 { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F4950e890da8048d6a7fa8e101f8e6b4c", alt: "Lösvirkeshus projekt 9" },
                 { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fce1eb982c3c4418e9d1ea842fa1d672d", alt: "Lösvirkeshus projekt 10" },
-                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fad06067e4f6746c6ad0f1e7f2c5135e3", alt: "Lösvirkeshus projekt 11" },
-                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fc8f05fcca50e455cbc18b06bf0491a3e", alt: "Lösvirkeshus projekt 12" },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fad06067e4f6746c6ad0f1e7f2c5135e3", alt: "Lösvirkeshus projekt 11", rotation: 90 },
+                { src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fc8f05fcca50e455cbc18b06bf0491a3e", alt: "Lösvirkeshus projekt 12", rotation: 90 },
               ]}
             />
           </div>
