@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImageCarousel from "@/components/ImageCarousel";
 
 export const metadata: Metadata = {
   title: "Lösvirkeshus | Aronsgård Bygg & Service",
@@ -64,6 +65,15 @@ export default function OmLosvirkeshusgPage() {
             <p className="text-foreground/70 leading-relaxed mb-8">
               För oss är det här ett modernt och hållbart sätt att bygga – där resultatet inte bara fungerar tekniskt, utan också känns rätt att leva i.
             </p>
+
+            {/* Bildspel - Lägg till bilder här när de är klara */}
+            {false && (
+              <ImageCarousel
+                images={[
+                  // { src: "...", alt: "..." },
+                ]}
+              />
+            )}
           </div>
         </div>
       </section>
