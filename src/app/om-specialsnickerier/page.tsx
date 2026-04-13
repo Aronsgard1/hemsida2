@@ -82,22 +82,27 @@ export default function OmSpecialsnickerierPage() {
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F7dc3dc339281475ab3545ec7066dc7e3",
                   alt: "Garderob - inbyggd lagringslösning",
+                  rotation: 90,
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F4dbb024845ee462e8bf1f7db09bf057b",
                   alt: "Kommoder - badrumsinredning",
+                  rotation: 90,
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F09795221974243808401d23ee9be0658",
                   alt: "TV-möbel - mediaväggen",
+                  rotation: 90,
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2bfe169846d443d2bb82d8bbaea47c87",
                   alt: "Fönsternisch - inbyggd förvaring",
+                  rotation: 90,
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fb142f1aaf1c24b028ed283443c82febc",
                   alt: "Speciallösning - anpassad möbel",
+                  rotation: 90,
                 },
                 {
                   src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F878a3054e40f414abdd2af9da38ffbe7",
