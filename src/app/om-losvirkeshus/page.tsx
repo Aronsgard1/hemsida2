@@ -56,7 +56,7 @@ export default function OmLosvirkeshusgPage() {
               Träbaserad konstruktion med masonitebalkar
             </p>
             <p className="text-foreground/70 leading-relaxed mb-8">
-              Vi bygger lösvirkeshus med masonitebalkar och träfiberisolering – ett system som ger energieffektiva hus med jämnare inomhusklimat, kortare byggtid och högsta kvalitet. Resultatet är ett sunt, behagligt och hållbart hus med tydliga fördelar både idag och över tid. Med lång erfarenhet från Jämtlands klimat vet jag vilka material och metoder som håller.
+              Vi har under åren byggt flera lösvirkeshus med masonitebalkar och träfiberisolering – och resultaten har varit väldigt goda, både i byggprocessen och i det färdiga huset. Det här är ett byggsystem som ger energieffektiva hus med jämnare inomhusklimat, där värmen stannar kvar på vintern och sommarvärmen hålls ute bättre. Samtidigt skapar det en lätt och smidig byggprocess, vilket ofta ger kortare byggtid utan att kompromissa med kvaliteten. Tillsammans skapar materialen ett hus som känns sunt, tyst, behagligt och hållbart – ett modernt sätt att bygga i trä, med tydliga fördelar både idag och över tid.
             </p>
 
             <Button variant="hero" asChild>
