@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ImageCarousel from "@/components/ImageCarousel";
 
 export const metadata: Metadata = {
   title: "Specialsnickerier | Aronsgård Bygg & Service",
@@ -55,7 +56,7 @@ export default function OmSpecialsnickerierPage() {
 
             <p className="text-foreground/70 font-semibold mb-4">Vi bygger bland annat:</p>
 
-            <ul className="text-foreground/70 leading-relaxed mb-8 space-y-2">
+            <ul className="text-foreground/70 leading-relaxed mb-12 space-y-2">
               <li>Kök – handbyggda och anpassade efter huset</li>
               <li>Garderober och förvaring – platsbyggda lösningar</li>
               <li>Kommoder och badrumsinredning</li>
@@ -66,6 +67,14 @@ export default function OmSpecialsnickerierPage() {
               <li>Inbyggda lösningar i hall och entré</li>
               <li>Speciallösningar efter behov</li>
             </ul>
+
+            {/* Bildspel - Lägg till bilder här när de är klara
+            <ImageCarousel
+              images={[
+                // { src: "...", alt: "..." },
+              ]}
+            />
+            */}
           </div>
         </div>
       </section>
