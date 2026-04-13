@@ -1,0 +1,90 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Breadcrumbs from "@/components/Breadcrumbs";
+
+export const metadata: Metadata = {
+  title: "Specialsnickerier | Aronsgård Bygg & Service",
+  description:
+    "Läs mer om specialsnickerier från Aronsgård Bygg & Service. Handbyggda kök, garderober, trappor och skräddarsydda inrednigslösningar.",
+  alternates: { canonical: "/om-specialsnickerier" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Hem",
+      item: "https://aronsgard-bygg.se/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Specialsnickerier",
+      item: "https://aronsgard-bygg.se/om-specialsnickerier",
+    },
+  ],
+};
+
+export default function OmSpecialsnickerierPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
+      <Breadcrumbs items={[{ label: "Specialsnickerier" }]} />
+
+      {/* Intro */}
+      <section className="py-16 md:py-24 px-4 md:px-8">
+        <div className="container mx-auto max-w-3xl">
+          {/* Text */}
+          <div className="mb-12 md:mb-16">
+            <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+              Specialsnickerier
+            </p>
+            <h1 className="mb-6 font-serif">Handbyggd inredning som håller</h1>
+            <p className="text-foreground/70 leading-relaxed mb-8">
+              För mig handlar specialsnickerier om mycket mer än bara att tillverka möbler – det handlar om att skapa genomtänkta lösningar som passar perfekt in i ditt hem och din livsstil. Varje projekt är unikt, och jag tar tid att förstå dina behov innan jag börjar arbeta.
+            </p>
+            <p className="text-foreground/70 leading-relaxed mb-8">
+              Från skräddarsydda kök och rymliga garderober till specialtillverkade trappor och andra detaljer – allt tillverkas med fokus på hantverk och kvalitet. Jag väljer material noggrant, arbetar precist och slutför varje detalj med omsorg. Resultatet är möbler och inredning som både ser vacker ut och håller i många år.
+            </p>
+            <p className="text-foreground/70 leading-relaxed mb-8">
+              Mina specialsnickerier är inte bara funktionella – de är också ett utryck för personlig stil och kvalitetskraftsmanskap. Det finns en särskild tillfredsställelse i att skapa något som en familj kommer att njuta av och älska genom många år.
+            </p>
+
+            <Button variant="hero" asChild>
+              <Link href="/kontakt">Kontakta mig</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
+        <div className="container mx-auto text-center">
+          <h2 className="mb-4 font-serif">
+            Behöver du skräddarsydda lösningar?
+          </h2>
+          <p className="text-muted-foreground max-w-xl mx-auto mb-10 text-lg">
+            Kontakta mig idag för att diskutera ditt projekt. Jag hjälper dig att skapa inredning som är både vacker och funktionell.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button variant="dark" size="xl" asChild>
+              <Link href="/kontakt">Begär offert</Link>
+            </Button>
+            <Button variant="outline" size="xl" asChild className="border-gray-800 text-gray-800 hover:bg-gray-100">
+              <Link href="/om-oss">Läs mer om mig</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

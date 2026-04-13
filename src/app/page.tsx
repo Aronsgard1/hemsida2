@@ -250,6 +250,12 @@ export default function HomePage() {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Kök, garderober, trappor och inredning byggt för hand. Från handbyggda kök och garderober till trappor och specialsnickerier – vi tillverkar skräddarsydda lösningar i vår verkstad. Varje detalj bearbetas noggrant för ett resultat som håller och ser bra ut i generationer.
               </p>
+              <Link
+                href="/om-specialsnickerier"
+                className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all"
+              >
+                Läs mer om specialsnickerier <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </div>
