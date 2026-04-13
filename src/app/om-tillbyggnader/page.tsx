@@ -46,14 +46,35 @@ export default function OmTillbyggnadPage() {
       <section className="py-16 md:py-24 px-4 md:px-8">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Bild */}
-            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] lg:aspect-auto lg:self-stretch min-h-96">
-              <Image
-                src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F0a7486edbfb14e3fa87fb819c5ce7021"
-                alt="Om- och tillbyggnader"
-                fill
-                className="object-cover object-center"
-                priority
+            {/* Bildspel */}
+            <div className="lg:self-stretch flex items-center">
+              <ImageCarousel
+                images={[
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F669847cfa5c640649be188069e03b9d5",
+                    alt: "Tillbyggnad - modern design",
+                  },
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fe4dccc55090c4762aff89c9b29bce0a6",
+                    alt: "Inredning bastu",
+                  },
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F50c5e7284d1246f0b016d1f9ff9b6d95",
+                    alt: "Bastu interior",
+                  },
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F459b8816d55f482d8080bdd255023e8e",
+                    alt: "Tillbyggnad natt",
+                  },
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Ff0d83d52127947e791f49755fa441f20",
+                    alt: "Konstruktion med isolering",
+                  },
+                  {
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F9fee25f8d9e6430e8d802f4a55676b83",
+                    alt: "Pergola och uterum",
+                  },
+                ]}
               />
             </div>
 
@@ -78,47 +99,6 @@ export default function OmTillbyggnadPage() {
               </Button>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Projektbilder - Bildspel */}
-      <section className="py-16 md:py-24 px-4 md:px-8" style={{ backgroundColor: "#f5f1ec" }}>
-        <div className="container mx-auto max-w-4xl">
-          <div className="mb-12 text-center">
-            <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
-              Projekt & Exempel
-            </p>
-            <h2 className="mb-4 font-serif">Exempel från mina tillbyggnader</h2>
-          </div>
-
-          <ImageCarousel
-            images={[
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F669847cfa5c640649be188069e03b9d5",
-                alt: "Tillbyggnad - modern design",
-              },
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Fe4dccc55090c4762aff89c9b29bce0a6",
-                alt: "Inredning bastu",
-              },
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F50c5e7284d1246f0b016d1f9ff9b6d95",
-                alt: "Bastu interior",
-              },
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F459b8816d55f482d8080bdd255023e8e",
-                alt: "Tillbyggnad natt",
-              },
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2Ff0d83d52127947e791f49755fa441f20",
-                alt: "Konstruktion med isolering",
-              },
-              {
-                src: "https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F9fee25f8d9e6430e8d802f4a55676b83",
-                alt: "Pergola och uterum",
-              },
-            ]}
-          />
         </div>
       </section>
 
