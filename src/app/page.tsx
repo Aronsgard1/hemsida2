@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Hammer, TreePine, Shield, Users } from "lucide-react";
 import { pastProjects } from "@/lib/projects";
 import TjansterSection from "@/components/TjansterSection";
-import FadeInOnScroll from "@/components/FadeInOnScroll";
 
 export const metadata: Metadata = {
   title: "Byggfirma i Jämtland | Aronsgård Bygg & Service",
@@ -119,7 +118,7 @@ export default function HomePage() {
       </section>
 
       {/* Om mig */}
-      <section className="py-12 md:py-16 px-4 md:px-8 fade-in-scroll" style={{ backgroundColor: "#f5f1ec" }}>
+      <section className="py-12 md:py-16 px-4 md:px-8" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* Bild */}
@@ -154,7 +153,7 @@ export default function HomePage() {
       </section>
 
       {/* Byggsystem */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#f5f1ec" }}>
+      <section className="section-padding" style={{ backgroundColor: "#f5f1ec" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Vänster kolumn */}
@@ -207,7 +206,7 @@ export default function HomePage() {
       </section>
 
       {/* Lösvirkeshus */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#3d3d3d" }}>
+      <section className="section-padding" style={{ backgroundColor: "#3d3d3d" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -236,7 +235,7 @@ export default function HomePage() {
       </section>
 
       {/* Specialsnickerier */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
+      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative rounded-lg overflow-hidden h-80 order-2 lg:order-1">
@@ -265,7 +264,7 @@ export default function HomePage() {
       </section>
 
       {/* Totalentreprenad */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#3d3d3d" }}>
+      <section className="section-padding" style={{ backgroundColor: "#3d3d3d" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -307,7 +306,7 @@ export default function HomePage() {
       </section>
 
       {/* Om- & tillbyggnad */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
+      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative rounded-lg overflow-hidden h-80 order-2 lg:order-1">
@@ -336,7 +335,7 @@ export default function HomePage() {
       </section>
 
       {/* Så arbetar jag */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#3d3d3d" }}>
+      <section className="section-padding" style={{ backgroundColor: "#3d3d3d" }}>
         <div className="container mx-auto">
           <div className="text-center mb-14">
             <p className="text-white/60 font-semibold text-sm uppercase tracking-widest mb-3">
@@ -399,7 +398,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding fade-in-scroll" style={{ backgroundColor: "#e8dfd4" }}>
+      <section className="section-padding" style={{ backgroundColor: "#e8dfd4" }}>
         <div className="container mx-auto text-center">
           <h2 className="mb-4 font-serif">
             Låt oss skapa något tillsammans.
