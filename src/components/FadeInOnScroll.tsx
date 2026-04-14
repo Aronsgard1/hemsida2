@@ -13,7 +13,7 @@ export default function FadeInOnScroll({ children }: FadeInOnScrollProps) {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("fade-in-scroll");
+          entry.target.classList.add("animate");
           observer.unobserve(entry.target);
         }
       },
@@ -22,6 +22,13 @@ export default function FadeInOnScroll({ children }: FadeInOnScrollProps) {
 
     if (ref.current) {
       observer.observe(ref.current);
+
+      // Check if element is already in viewport on mount
+      const rect = ref.current.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        ref.current.classList.add("animate");
+        observer.unobserve(ref.current);
+      }
     }
 
     return () => {
