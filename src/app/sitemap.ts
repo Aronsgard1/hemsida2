@@ -1,10 +1,11 @@
 import { MetadataRoute } from "next";
 import { pastProjects } from "@/lib/projects";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://aronsgard-bygg.se";
 
-  // Static pages
   const staticPages = [
     {
       url: `${baseUrl}/`,
@@ -44,7 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Dynamic project pages
   const projectPages = pastProjects.map((project) => ({
     url: `${baseUrl}/projekt/${project.slug}`,
     lastModified: new Date(),
