@@ -73,14 +73,9 @@ export default function HomePage() {
 
       {/* Hero – helskärm */}
       <section
-        className="relative flex items-end"
+        className="relative flex items-end parallax-bg min-h-screen md:min-h-[calc(100vh-48px)]"
         style={{
-          height: "calc(100vh - 48px)",
-          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover"
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')"
         }}
       >
 
@@ -98,24 +93,24 @@ export default function HomePage() {
         </div>
 
         {/* Textinnehåll */}
-        <div className="relative z-10 container mx-auto px-8 md:px-16 pb-20 pt-40">
-          <p className="text-white font-semibold text-sm uppercase tracking-widest mb-5">
+        <div className="relative z-10 container mx-auto px-4 sm:px-8 md:px-16 pb-10 sm:pb-16 md:pb-20 pt-24 sm:pt-32 md:pt-40">
+          <p className="text-white font-semibold text-xs sm:text-sm uppercase tracking-widest mb-3 sm:mb-5">
             Byggfirma i Jämtland
           </p>
-          <h1 className="text-white leading-tight mb-6 max-w-2xl font-serif">
+          <h1 className="text-white leading-tight mb-4 sm:mb-6 max-w-2xl font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
             Där idé blir verklighet.
           </h1>
-          <p className="text-white text-lg max-w-lg leading-relaxed mb-10">
+          <p className="text-white text-base sm:text-lg max-w-lg leading-relaxed mb-6 sm:mb-10">
             Bred erfarenhet inom nybyggnation, renoveringar och
             finsnickeri. Vi utgår från Hallen och verkar i hela Jämtland.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Button size="xl" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors">
+          <div className="flex flex-wrap gap-2 sm:gap-4">
+            <Button size="lg" asChild className="bg-slate-800 border-2 border-slate-800 text-white hover:bg-slate-900 transition-colors text-sm sm:text-base">
               <Link href="/kontakt">Begär offert</Link>
             </Button>
-            <Button size="xl" asChild className="bg-slate-700/40 border border-slate-600/50 text-white hover:bg-slate-700/60 backdrop-blur-sm">
+            <Button size="lg" asChild className="bg-slate-700/40 border border-slate-600/50 text-white hover:bg-slate-700/60 backdrop-blur-sm text-sm sm:text-base">
               <a href="tel:+46738000979" className="flex items-center gap-2">
-                <Phone className="w-5 h-5" />
+                <Phone className="w-4 sm:w-5 h-4 sm:h-5" />
                 073-800 09 79
               </a>
             </Button>
@@ -204,7 +199,7 @@ export default function HomePage() {
                 alt="Träbaserad konstruktion med masonitebalkar"
                 fill
                 className="object-cover object-center"
-                priority
+                loading="eager"
               />
             </div>
           </div>
@@ -233,6 +228,7 @@ export default function HomePage() {
                 alt="Lösvirkeshus – nybyggnation från grunden"
                 fill
                 className="object-cover"
+                loading="lazy"
               />
             </div>
           </div>
@@ -249,6 +245,7 @@ export default function HomePage() {
                 alt="Specialsnickerier – handbyggd inredning"
                 fill
                 className="object-cover"
+                loading="lazy"
               />
             </div>
             <div className="order-1 lg:order-2">
@@ -291,6 +288,7 @@ export default function HomePage() {
                   alt="Nybyggnation exempel"
                   fill
                   className="object-cover"
+                  loading="lazy"
                 />
               </div>
               {/* Small image - in front at bottom-right */}
@@ -300,6 +298,7 @@ export default function HomePage() {
                   alt="Totalentreprenad – från idé till färdigt hem"
                   fill
                   className="object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -317,6 +316,7 @@ export default function HomePage() {
                 alt="Om- & tillbyggnad – utveckling av befintliga hem"
                 fill
                 className="object-cover"
+                loading="lazy"
               />
             </div>
             <div className="order-1 lg:order-2">
@@ -390,13 +390,9 @@ export default function HomePage() {
 
       {/* Parallax landscape image */}
       <section
-        className="relative w-full h-96 md:h-[50vh]"
+        className="relative w-full h-96 md:h-[50vh] parallax-bg"
         style={{
-          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover"
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F2921a636d058409dabed0df2d886c66d')"
         }}
       >
         <div className="absolute inset-0 bg-black/10" />

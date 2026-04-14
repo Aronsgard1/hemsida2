@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
+    formats: ['image/avif', 'image/webp', 'image/jpeg'],
+    qualities: [75],
   },
 };
 export default nextConfig;
