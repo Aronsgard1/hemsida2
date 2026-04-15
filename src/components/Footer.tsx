@@ -88,29 +88,28 @@ const Footer = () => (
 
     {/* Botten */}
     <div className="border-t border-background/10">
-      <div className="container mx-auto px-4 md:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-6 text-xs text-background/40">
-        <div>
-          <p>© {new Date().getFullYear()} Aronsgård Bygg & Service</p>
-        </div>
-        <Link href="/integritetspolicy" className="hover:text-background/70 transition-colors">
-          Integritetspolicy
-        </Link>
+      <div className="container mx-auto px-4 md:px-8 py-12 flex flex-col sm:flex-row justify-between items-center gap-8">
+        <p className="text-xs text-background/40">© {new Date().getFullYear()} Aronsgård Bygg & Service</p>
+
         <a
           href="https://axonadigital.se"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          className="flex flex-col items-center gap-2 hover:opacity-80 transition-opacity"
           title="Skapad av Axona Digital"
         >
-          <span className="text-background/40">Skapad av</span>
           <Image
             src="https://cdn.builder.io/api/v1/image/assets%2F6e3f03f48a5e4360a63ce2a8773f264b%2F4bc83b42bd3b41caa659e7d8aa4f3b99?format=webp&width=800&height=1200"
             alt="Axona Digital"
-            width={100}
-            height={50}
-            className="h-5 w-auto object-contain invert"
+            width={200}
+            height={100}
+            className="h-16 w-auto object-contain"
           />
         </a>
+
+        <Link href="/integritetspolicy" className="text-xs text-background/40 hover:text-background/70 transition-colors">
+          Integritetspolicy
+        </Link>
       </div>
     </div>
   </footer>
