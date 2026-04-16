@@ -35,9 +35,7 @@ export default function Header() {
           : "bg-gray-800/70 backdrop-blur-sm shadow-sm"
       }`}
     >
-      <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 relative ${
-        transparent ? "h-32" : "h-32"
-      }`}>
+      <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 relative h-20 md:h-32`}>
         {/* Logotyp */}
         <Link href="/" className="flex items-center">
           <Image
@@ -45,9 +43,7 @@ export default function Header() {
             alt="Aronsgård Bygg & Service"
             width={480}
             height={240}
-            className={`w-auto object-contain transition-all brightness-0 invert ${
-              transparent ? "h-28" : "h-28"
-            }`}
+            className={`w-auto object-contain transition-all brightness-0 invert h-14 md:h-28`}
             style={{ fontWeight: 400 }}
             priority
             quality={100}
@@ -55,7 +51,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8 absolute right-4 md:right-8 top-0 pt-6">
+        <nav className="hidden md:flex items-center gap-8 absolute right-4 md:right-8 top-0 md:pt-6">
           {navLinks.map((l) => (
             <Link
               key={l.href}
