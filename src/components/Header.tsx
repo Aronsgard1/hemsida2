@@ -36,7 +36,7 @@ export default function Header() {
       }`}
     >
       <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300 relative ${
-        transparent ? "h-64" : "h-32"
+        transparent ? "h-32" : "h-32"
       }`}>
         {/* Logotyp */}
         <Link href="/" className="flex items-center">
@@ -46,7 +46,7 @@ export default function Header() {
             width={480}
             height={240}
             className={`w-auto object-contain transition-all brightness-0 invert ${
-              transparent ? "h-56" : "h-28"
+              transparent ? "h-28" : "h-28"
             }`}
             style={{ fontWeight: 400 }}
             priority
