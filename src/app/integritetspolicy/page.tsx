@@ -28,10 +28,10 @@ export default function IntegritetspolicyPage() {
               Aronsgård Bygg & Service är personuppgiftsansvarig för behandlingen
               av dina personuppgifter. Kontaktuppgifter:{" "}
               <a
-                href="mailto:aronsgard.bos@icloud.com"
+                href="mailto:info@aronsgard.se"
                 className="text-primary hover:underline"
               >
-                aronsgard.bos@icloud.com
+                info@aronsgard.se
               </a>
               , telefon{" "}
               <a href="tel:+46738000979" className="text-primary hover:underline">
@@ -75,10 +75,10 @@ export default function IntegritetspolicyPage() {
               dina personuppgifter. Du kan också invända mot behandlingen eller
               begära begränsning. Kontakta oss på{" "}
               <a
-                href="mailto:aronsgard.bos@icloud.com"
+                href="mailto:info@aronsgard.se"
                 className="text-primary hover:underline"
               >
-                aronsgard.bos@icloud.com
+                info@aronsgard.se
               </a>{" "}
               för att utöva dina rättigheter.
             </p>

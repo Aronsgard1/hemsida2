@@ -46,7 +46,7 @@ const localBusinessJsonLd = {
     "Byggfirma i Jämtland – nybyggnation, renoveringar, takbyten, finsnickeri och om- & tillbyggnader.",
   url: "https://aronsgard-bygg.se",
   telephone: "+46738000979",
-  email: "aronsgard.bos@icloud.com",
+  email: "info@aronsgard.se",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Trägsta 172",

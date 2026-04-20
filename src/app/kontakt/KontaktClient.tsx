@@ -47,10 +47,10 @@ export default function KontaktClient() {
                       E-post
                     </h3>
                     <a
-                      href="mailto:aronsgard.bos@icloud.com"
+                      href="mailto:info@aronsgard.se"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      aronsgard.bos@icloud.com
+                      info@aronsgard.se
                     </a>
                   </div>
                 </div>
