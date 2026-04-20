@@ -66,7 +66,7 @@ const Footer = () => (
             <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
             <span>
               Trägsta 172<br />
-              284 91 Hallen<br />
+              845 91 Hallen<br />
               <span className="text-background/50 text-xs">Utgår från Hallen</span>
             </span>
           </li>
